@@ -1,0 +1,110 @@
+﻿
+.tooltip1 {
+			color: #006C9E; outline: none;
+			cursor: pointer; text-decoration: none;
+			position: relative;
+		}
+		.tooltip1 span {
+			margin-left: -999em;
+			position: absolute;
+		}
+		.tooltip1:hover span {
+			border-radius: 5px 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; 
+			box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1); -webkit-box-shadow: 5px 5px rgba(0, 0, 0, 0.1); -moz-box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+			font-family: Calibri, Tahoma, Geneva, sans-serif;
+			font-weight:normal;
+			position: absolute; left: -26em; top: 1em; z-index: 1000;
+			margin-left: auto; width: 250px;
+		}
+	
+		.tooltip1:hover em {
+			font-family: Candara, Tahoma, Geneva, sans-serif; font-size: 1.2em; font-weight: bold;
+			display: block; padding: 0.2em 0 0.6em 0;
+		}
+		
+		
+		
+		.tooltip2 {
+			color: #006C9E; outline: none;
+			cursor: pointer; text-decoration: none;
+			position: relative;
+		}
+		.tooltip2 span {
+			margin-left: -999em;
+			position: absolute;
+		}
+		.tooltip2:hover span {
+			border-radius: 5px 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; 
+			box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1); -webkit-box-shadow: 5px 5px rgba(0, 0, 0, 0.1); -moz-box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+			font-family: Calibri, Tahoma, Geneva, sans-serif;
+			font-weight:normal;
+			position: absolute; left: -7.5em; top: 1em; z-index: 1000;
+			margin-left: auto; width: 250px;
+		}
+	
+		.tooltip2:hover em {
+			font-family: Candara, Tahoma, Geneva, sans-serif; font-size: 1.2em; font-weight: bold;
+			display: block; padding: 0.2em 0 0.6em 0;
+		}
+		
+		
+		
+		.tooltip3 {
+			color: #006C9E; outline: none;
+			cursor: pointer; text-decoration: none;
+			position: relative;
+		}
+		.tooltip3 span {
+			margin-left: -999em;
+			position: absolute;
+		}
+		.tooltip3:hover span {
+			border-radius: 5px 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; 
+			box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1); -webkit-box-shadow: 5px 5px rgba(0, 0, 0, 0.1); -moz-box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+			font-family: Calibri, Tahoma, Geneva, sans-serif;
+			font-weight:normal;
+			position: absolute; left: -1em; margin-right:-20px; top: 1em; z-index: 1000;
+			margin-left: auto; width: 250px;
+		}
+	
+		.tooltip3:hover em {
+			font-family: Candara, Tahoma, Geneva, sans-serif; font-size: 1.2em; font-weight: bold;
+			display: block; padding: 0.2em 0 0.6em 0;
+		}
+		
+		
+		
+.custom { padding: 0.5em 0.8em 0.8em 2em; }
+		* html a:hover { background: transparent; }		
+		
+		.info { background: #f8fbfe; border: 1px solid #2BB0D7;text-align:left;	}
+		
+		
+		
+		
+		
+		
+		
+			.tooltip4 {
+			color: #006C9E; outline: none;
+			cursor: pointer; text-decoration: none;
+			position: relative;
+		}
+		.tooltip4 div {
+			margin-left: -999em;
+			position: absolute;
+		}
+		.tooltip4:hover div {
+			border-radius: 5px 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; 
+			box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1); -webkit-box-shadow: 5px 5px rgba(0, 0, 0, 0.1); -moz-box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+			font-family: Calibri, Tahoma, Geneva, sans-serif;
+			font-weight:normal;
+			position: absolute;  margin-top:20px; top: -1.5em; z-index: 1000;
+			margin-left: auto; width:auto;margin-left:200px;
+		}
+	
+		.tooltip4:hover em {
+			font-family: Candara, Tahoma, Geneva, sans-serif; font-size: 1.2em; font-weight: bold;
+			display: block; padding: 0.2em 0 0.6em 0;
+		}
+		

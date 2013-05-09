@@ -1,0 +1,2 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="ProviderMedium.ascx.cs" Inherits="IntelArcade.WebApp.SearchControls.ProviderMedium" %>
+<br /><br />[Provider Medium - Not Implemented]<br /><br />

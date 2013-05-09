@@ -1,0 +1,2 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="ProviderLong.ascx.cs" Inherits="IntelArcade.WebApp.SearchControls.ProviderLong" %>
+<br /><br />[Provider Long - Not Implemented]<br /><br />

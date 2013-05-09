@@ -1,0 +1,2 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="ResourceMedium.ascx.cs" Inherits="IntelArcade.WebApp.SearchControls.ResourceMedium" %>
+<br /><br />[Resource Medium - Not Implemented]<br /><br />

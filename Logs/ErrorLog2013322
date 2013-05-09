@@ -1,0 +1,2 @@
+3/22/2013 5:24:24 PM ==> C:\inetpub\wwwroot\DaB\Logs/ErrorLog20133223/22/2013 5:24:24 PM ==> A potentially dangerous Request.Path value was detected from the client (:).   at System.Web.HttpRequest.ValidateInputIfRequiredByConfig()
+   at System.Web.HttpApplication.PipelineStepManager.ValidateHelper(HttpContext context)System.Web

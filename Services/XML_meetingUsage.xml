@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<meetingUsages>
+  <meetingUsageprovider>
+
+    <!--these parameters are mandatory. -->
+    
+    <!--int, ex:5188484 -->
+    <MU_BytesIn>5188484</MU_BytesIn>
+    <!--int, ex:783505-->
+    <MU_BytesOut>783505</MU_BytesOut>
+    <!--string, ex:DGAQyqD3 -->
+    <MU_ClientID>DGAQyqD3</MU_ClientID>
+    <!--string, ex:103.247.50.181 -->
+    <MU_IP>103.247.50.181</MU_IP>
+    <!--string, uk time, ex:2012-08-27 11:23:26 -->
+    <MU_Start>2012-08-28 05:53:29</MU_Start>
+    <!--string, uk time, ex:2012-08-27 11:30:33 -->
+    <MU_Stop>2012-08-28 05:58:38</MU_Stop>
+    <!--string, ex:HOST:Keith Bowman(543F9C) -->
+    <MU_User>HOST:Keith Bowman(543F9C)</MU_User>
+
+    <!--these parameters are not used. -->
+    
+    <!--string -->
+    <MU_Agent></MU_Agent>
+    <!--string -->
+    <MU_Edge></MU_Edge>
+    <!--string -->
+    <MU_Email></MU_Email>
+    <!--int -->
+    <MU_Invisible>0</MU_Invisible>
+    <!--int -->
+    <MU_IsHost>0</MU_IsHost>
+    <!--string -->
+    <MU_Phone></MU_Phone>
+    <!--int -->
+    <MU_Port>0</MU_Port>
+    <!--string -->
+    <MU_Protocol>0</MU_Protocol>    
+  </meetingUsageprovider>
+  
+  <meetingUsageclient>
+
+    <!--these parameters are mandatory. -->
+
+    <!--int, ex:5188484 -->
+    <MU_BytesIn>5188484</MU_BytesIn>
+    <!--int, ex:783505-->
+    <MU_BytesOut>783505</MU_BytesOut>
+    <!--string, ex:DGAQyqD3 -->
+    <MU_ClientID>AGAQyqD3</MU_ClientID>
+    <!--string, ex:103.247.50.181 -->
+    <MU_IP>103.247.50.181</MU_IP>
+    <!--string, uk time, ex:2012-08-27 11:23:26 -->
+    <MU_Start>2012-08-28 05:53:19</MU_Start>
+    <!--string, uk time, ex:2012-08-27 11:30:33 -->
+    <MU_Stop>2012-08-28 05:58:18</MU_Stop>
+    <!--string, ex:HOST:Keith Bowman(543F9C) -->
+    <MU_User>HOST:Brandon James(1C469D)</MU_User>
+
+    <!--these parameters are not used. -->
+    
+    <!--string -->
+    <MU_Agent></MU_Agent>
+    <!--string -->
+    <MU_Edge></MU_Edge>
+    <!--string -->
+    <MU_Email></MU_Email>
+    <!--int -->
+    <MU_Invisible>0</MU_Invisible>
+    <!--int -->
+    <MU_IsHost>0</MU_IsHost>
+    <!--string -->
+    <MU_Phone></MU_Phone>
+    <!--int -->
+    <MU_Port>0</MU_Port>
+    <!--string -->
+    <MU_Protocol>0</MU_Protocol>    
+  </meetingUsageclient>
+</meetingUsages>

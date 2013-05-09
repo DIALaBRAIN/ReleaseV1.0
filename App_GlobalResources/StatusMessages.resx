@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddressUpdated" xml:space="preserve">
+    <value>Address updated|The address was updated successfully.</value>
+  </data>
+  <data name="BankDetailsUpdated" xml:space="preserve">
+    <value>Bank details updated|Bank details updated successfully.</value>
+  </data>
+  <data name="BankDetailsCreated" xml:space="preserve">
+    <value>Bank details created|Bank details created successfully.</value>
+  </data>
+  <data name="CompanyUpdated" xml:space="preserve">
+    <value>Company updated|Company updated successfully.</value>
+  </data>
+  <data name="CompanyCreated" xml:space="preserve">
+    <value>Company created|Company created successfully.</value>
+  </data>
+  <data name="ConsumableTypeTaxRateUpdated" xml:space="preserve">
+    <value>Consumable Type Tax Rate Updated|Consumable Type Tax Rate updated successfully.</value>
+  </data>
+  <data name="ConsumableTypeTaxRateCreated" xml:space="preserve">
+    <value>Consumable Type Tax Rate created|Consumable Type Tax Rate created successfully.</value>
+  </data>
+  <data name="FeedbackUpdated" xml:space="preserve">
+    <value>Feedback updated|Feedback updated successfully.</value>
+  </data>
+  <data name="FeedbackCreated" xml:space="preserve">
+    <value>Feedback created|Feedback created successfully.</value>
+  </data>
+  <data name="MessageUpdated" xml:space="preserve">
+    <value>Message updated|Message updated successfully.</value>
+  </data>
+  <data name="MessageCreated" xml:space="preserve">
+    <value>Message created|Message created successfully.</value>
+  </data>
+  <data name="NoteUpdated" xml:space="preserve">
+    <value>Note updated|Note updated successfully.</value>
+  </data>
+  <data name="NoteCreated" xml:space="preserve">
+    <value>Note created|Note created successfully.</value>
+  </data>
+  <data name="PaymentUpdated" xml:space="preserve">
+    <value>Payment updated|Payment updated successfully.</value>
+  </data>
+  <data name="PaymentCreated" xml:space="preserve">
+    <value>Payment created|Payment created successfully.</value>
+  </data>
+  <data name="ProviderProfileUpdated" xml:space="preserve">
+    <value>Provider profile updated|Provider profile updated successfully.</value>
+  </data>
+  <data name="ProviderProfileCreated" xml:space="preserve">
+    <value>Provider profile created|Provider profile created successfully.</value>
+  </data>
+  <data name="RecommendationUpdated" xml:space="preserve">
+    <value>Recommendation updated|Recommendation updated successfully.</value>
+  </data>
+  <data name="RecommendationCreated" xml:space="preserve">
+    <value>Recommendation created|Recommendation created successfully.</value>
+  </data>
+  <data name="ResourceUpdated" xml:space="preserve">
+    <value>Resource updated|Resource updated successfully.</value>
+  </data>
+  <data name="ResourceCreated" xml:space="preserve">
+    <value>Resource created|Resource created successfully.</value>
+  </data>
+  <data name="ServiceProfileUpdated" xml:space="preserve">
+    <value>Service profile updated|The service profile was updated successfully.</value>
+  </data>
+  <data name="ServiceProfileCreated" xml:space="preserve">
+    <value>Service profile created|The service profile was created successfully.</value>
+    <comment>Examples: "Title|Subtitle|Message" OR "Title|Message" OR "Message"</comment>
+  </data>
+  <data name="SystemUserUpdated" xml:space="preserve">
+    <value>System user updated|System user updated successfully.</value>
+  </data>
+  <data name="SystemUserCreated" xml:space="preserve">
+    <value>System user created|System user created successfully.</value>
+  </data>
+  <data name="TaxDetailsUpdated" xml:space="preserve">
+    <value>Tax details updated|Tax details updated successfully.</value>
+  </data>
+  <data name="TaxRateUpdated" xml:space="preserve">
+    <value>Tax rate updated|Tax rates updated successfully.</value>
+  </data>
+  <data name="WorkHistoryUpdated" xml:space="preserve">
+    <value>Work history updated|Work history updated successfully.</value>
+  </data>
+  <data name="WorkHistoryCreated" xml:space="preserve">
+    <value>Work history created|Work history created successfully.</value>
+  </data>
+  <data name="WorkHistoryItemUpdated" xml:space="preserve">
+    <value>Work history Item updated|Work history item updated successfully.</value>
+  </data>
+  <data name="WorkHistoryItemCreated" xml:space="preserve">
+    <value>Work history Item created|Work history Item created successfully.</value>
+  </data>
+  <data name="AccountVerification" xml:space="preserve">
+    <value>Account verification|account has been successfully activated.</value>
+  </data>
+  <data name="AccountVerificationSubmitted" xml:space="preserve">
+    <value>Account verification|Thank you, an account activation email has been sent to your registered email address.</value>
+  </data>
+  <data name="GenericErrorTitle" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GenericNotificationTitle" xml:space="preserve">
+    <value>System Notification</value>
+  </data>
+  <data name="GenericSubtitle" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="MessageSent" xml:space="preserve">
+    <value>Message sent|Your message has been sent</value>
+  </data>
+  <data name="InternetLinkCreated" xml:space="preserve">
+    <value>Internet link created|The Internet link was created successfully.</value>
+  </data>
+  <data name="InternetLinkUpdated" xml:space="preserve">
+    <value>Internet link updated|The Internet link was updated successfully.</value>
+  </data>
+  <data name="PreferencesUpdated" xml:space="preserve">
+    <value>Preferences updated|Your personal preferences were updated successfully.</value>
+  </data>
+  <data name="PersonalDetailsCreated" xml:space="preserve">
+    <value>Personal details created|Personal details created successfully</value>
+  </data>
+  <data name="PersonalDetailsUpdated" xml:space="preserve">
+    <value>Personal details updated|Your  details were updated successfully.</value>
+  </data>
+  <data name="UserLanguageAdded" xml:space="preserve">
+    <value>User language added|The language was added successfully.</value>
+  </data>
+  <data name="BankAccountDetailsUpdated" xml:space="preserve">
+    <value>Bank details updated|Your bank account details were updated successfully.</value>
+  </data>
+  <data name="QualificationUpdated" xml:space="preserve">
+    <value>Qualification updated|Qualification updated successfully.</value>
+  </data>
+  <data name="QualificationCreated" xml:space="preserve">
+    <value>Qualification created|Qualification created successfully.</value>
+  </data>
+  <data name="UserLanguageRemoved" xml:space="preserve">
+    <value>User language removed|The language was removed successfully.</value>
+  </data>
+  <data name="SalesTaxRatesRequired" xml:space="preserve">
+    <value>Sales Tax/VAT Details Required|Action Required|You must define Sales Tax/VAT rates before using this feature.</value>
+  </data>
+  <data name="MoneyDownload" xml:space="preserve">
+    <value>Money download|Your payment is now being processed.</value>
+  </data>
+  <data name="PriceLimitUpdate" xml:space="preserve">
+    <value>Price limit update|Price limit update successfully.</value>
+  </data>
+  <data name="GenericWarningTitle" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GenericErrorSubtitle" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="GenericNotificationSubtitle" xml:space="preserve">
+    <value>Success</value>
+  </data>
+  <data name="GenericWarningSubtitle" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="LinkedInImport" xml:space="preserve">
+    <value>LinkedInImport|LinkedIn import successfully</value>
+  </data>
+  <data name="PasswordChanged" xml:space="preserve">
+    <value>Your password was updated successfully.</value>
+  </data>
+  <data name="PaypalFileUploaded" xml:space="preserve">
+    <value>File successfully uploaded. {0} transaction effected</value>
+  </data>
+  <data name="DownloadPayPalFile" xml:space="preserve">
+    <value>PayPal file download successfully.</value>
+  </data>
+  <data name="RequestService" xml:space="preserve">
+    <value>Service request successfully.</value>
+  </data>
+  <data name="LinkWantedService" xml:space="preserve">
+    <value>Service linked  successfully.</value>
+  </data>
+  <data name="ApplyServiceTaxDetails" xml:space="preserve">
+    <value>Successfully Submitted.</value>
+  </data>
+  <data name="MoneyDownloadRequest" xml:space="preserve">
+    <value>Money download|Money download confirmation email sent. Please confirm from your email.</value>
+  </data>
+</root>

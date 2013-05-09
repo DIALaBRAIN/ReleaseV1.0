@@ -1,0 +1,2480 @@
+﻿/*
+	Banner Colours:
+	Orginal: #006666
+	Light Green: #83C140
+	Medium Green: #66B242
+	Dark Green: #319F44
+
+	Light Blue: #35BDE5;
+	Dark Blue: #217A9A;
+*/
+
+
+*{ margin: 0; padding: 0; }*
+
+a
+{
+	 color: #006C9E;
+    font-size: 0.9em;
+    text-decoration:none;
+}
+a:hover
+{
+	text-decoration: underline;
+	
+}
+
+.disabledLink{ color:#555; text-decoration: none;}
+.disabledLink:hover { text-decoration: none }
+
+body  
+{
+	font: 0.875em Arial, "Trebuchet MS", Tahoma, sans-serif; 
+	line-height: 1.6em;
+	background-color:#fafafa; 
+	color: #444; 
+}
+label
+{
+	font-weight:bold;
+}
+.highlight
+{
+	color: #FF9900;
+	font-weight: bold;
+}
+.highlight2
+{
+    color:#FF6600;
+}
+
+.content
+{
+    
+    margin: 0 auto;
+    width: 1000px;            	
+}
+            
+.header 
+{
+	font-family: Arial, Verdana;
+	color: White;
+    /*background-color: #217A9A;*/
+    background-color:#336699;
+
+	
+
+}
+.header .subtext
+{
+	font-size: 11px;
+}
+
+.topBanner
+{
+
+}
+
+.tickerBar
+{
+	background-color:#9f9f9f;
+	border-top:solid 1px black;
+    border-bottom:solid 1px black;
+}
+.tickerControl
+{
+	color:White;
+	padding-left:0px;
+	padding-right:10px;
+	height:61px;
+}
+.tickerControl a
+{
+	color: White;
+}
+.searchBar
+{
+	font-size: 12px;
+	border-top:solid 2px black;
+}
+.companyName
+{
+	color: White;
+	font-weight: normal;
+	font-family: Myriad Web Pro, Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	padding: 10px 10px 0px 10px;
+}
+.companyName sup
+{
+	font-weight: normal;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 16px;	
+}
+.companyName a
+{
+	color:White;
+	text-decoration:none;
+}
+.companyName a:hover
+{
+	color:White;
+	text-decoration:none;
+}
+.footer 
+{ 
+	clear: both;
+	text-align: center;
+	padding: 10px 0;
+	border-top: 1px solid #ccc;
+	line-height: 2em;
+}
+.footer a { color: #808080; background: #fff; }
+
+.topBanner .authElement
+{
+	font-size:14px;
+}
+
+.topBanner .authElement a
+{
+	font-size: 12px;
+	font-weight:bold;
+	color: White;
+	text-decoration: none;
+}
+
+.topBanner .authElement a:hover
+{
+	color:#FF9900;
+	text-decoration:underline;
+}
+.header .highlight
+{
+	color: #FF9900;
+}
+.header .searchBar a
+{
+	color: White;
+	text-decoration: none;
+}
+
+.header .searchBar a:hover
+{
+	text-decoration:underline;
+}
+.header .searchElement a
+{
+	color: #FF9900;
+	text-decoration: none;
+}
+
+.header .searchElement a:hover
+{
+	text-decoration:underline;
+}
+.mainMenuElement
+{
+	font-size: 16px;
+}
+.leftImage
+{
+    float: left;
+	margin: 0 9px 3px 0;
+}
+.rightArticle 
+{
+	/*background: #f5f5f5;*/
+	color: #414141;
+	padding:8px;	
+	margin: 0 0 3px 0;
+}
+.contentBody
+{
+    /*background: #f5f5f5;*/
+	float:left;
+	width:740px;
+	padding-right:10px;
+}
+.contentBody h2 
+{
+	clear: both;
+	background: #336699; /*#6F6F6F; url(../images/bgBodyHeader.gif) no-repeat center left;*/
+	color: White;
+	padding: 5px 0 5px 15px;
+	font: bold 1.2em "Trebuchet MS", Arial, Sans-Serif;
+	margin: 0 0 10px 0;
+	border-radius: 7px 7px; 
+    -moz-border-radius:5px; 
+    -webkit-border-radius: 5px;
+}
+
+.contentBody h2 .highlight 
+{
+	color: #FF9900;
+}
+.contentBody .headerContainer 
+{
+	/*clear: both;*/
+
+	background: #336699; 
+        color: White;
+	padding: 3px 15px 4px 15px;
+	font: bold 1.2em "Trebuchet MS", Arial, Sans-Serif;
+	margin: 0 0 10px 0;
+	 border-radius: 7px 7px; 
+        -moz-border-radius:5px; 
+        -webkit-border-radius: 5px;
+	 
+	   
+}
+.bodyHeaderInfo
+{
+	float:right;
+	padding-right: 10px;
+	color:White;
+	font-weight: normal;	
+	font-size: 0.9em;
+}
+.bodyHeaderInfo a
+{
+	color: Yellow;
+}
+.contentRight
+{
+	float:right;
+	width:250px;
+}
+.contentRight h3 {
+	clear: both;
+	height:36px;
+	background:#336699;
+	 /*background: #217A9A;url(../images/bgRightHeader.gif) no-repeat center left;*/
+	color: White;
+	padding: 4px 0 4px 15px;
+	font: bold 1.2em Arial, "Trebuchet MS", Sans-Serif;
+	margin: 0 0 5px 0;
+}
+.contentRight h3 .highlight
+{
+	color: #FF9900;
+	font-weight:bold;
+}
+.contentRight h3 .contrast
+{
+	color: #bfbfbf;
+}
+.rightHeaderInfo
+{
+    margin-top:3px;
+	float:right;
+	padding-right: 10px;
+	color:White;
+	font-weight: normal;	
+	font-size: 0.9em;
+	vertical-align:top;
+	
+}
+.rightHeaderInfo2
+{
+    
+    color:White;
+	font-weight: normal;	
+	font-size: 0.9em;
+	vertical-align:top;
+	padding-right: 5px;
+	margin-left:1px;
+	
+	
+
+
+	
+}
+.rightHeaderInfo3
+{
+    
+    color:White;
+	font-weight: normal;	
+	font-size: 1.0em;
+	vertical-align:top;
+	padding-right: 1px;
+	margin-left:1px;
+		
+}
+.rightHeaderInfo4
+{
+    margin-top:3px;
+	float:right;
+	padding-right: 10px;
+	color:White;
+	font-weight: normal;	
+	font-size: 1.0em;
+	vertical-align:top;
+	
+}
+.rightHeaderInfo a
+{
+	color: #FF9900;
+}
+.contentBody_leftSide {
+	float: left;
+	width: 300px;
+	padding: 0 5px 0 0px;
+	margin: 0px 0 0 0px;
+}
+.contentBody_rightSide {
+	float: right;
+	width: 300px;
+	background: url(images/dotted.gif) repeat-y;
+	color: #414141;
+	padding: 0 0 0 0px;
+	margin: 0px 0;
+}
+
+.formData a 
+{
+	/*color: #FF9148;
+
+*/
+}
+.formData .article 
+{
+	background: #f5f5f5;
+	color: #414141;
+	padding: 0px;	
+	margin: 0 0 3px 0;
+	width:100%;
+	float:left;
+}
+fieldset.formData
+{
+	/*color: Black;*/
+    margin: 0em 0px;
+    padding: 0em;
+    width:99%;
+    border:0;
+    padding-left:2px;
+}
+fieldset.formData label /*, fieldset.register label, fieldset.changePassword label*/
+{
+	 display: inline;
+     /*font: bold 1em "Trebuchet MS", Arial, Sans-Serif;*/
+}
+.buttonContainer
+{
+	float:left;
+	padding-top:20px;
+}
+.validators
+{
+	padding-left:5px;
+}
+.error 
+{
+	color: Red;
+}
+legend 
+{
+	font: bold 1.2em "Trebuchet MS", Arial, Sans-Serif;
+	color:#FF9148;
+	margin-left: 25px;
+}
+
+fieldset.subFormData
+{
+	/*color: Black;*/
+    margin: 0em 0px;
+    padding: 1em;
+    width:95%;
+}
+.subFormData legend
+{
+	font: bold 1.2em "Trebuchet MS", Arial, Sans-Serif;
+	color:#FF9148;
+	margin-left: 0px;
+}
+.labelCell { padding-right:10px;vertical-align:text-top;text-align:right; }
+
+.searchOptionsSection
+ {
+		float: left;
+		border-right: solid 1px #cbcbcb;
+		height: 130px;
+		padding-left: 16px;
+}
+.searchResults label
+{
+	 /*color: #FF9148;*/
+	 display: inline;
+     /*font: bold 1.1em "Trebuchet MS", Arial, Sans-Serif;*/
+}
+
+fieldset.statusError
+{
+    margin-top:6px;
+	font-size:larger;
+	width:998px;
+	margin-bottom:6px;
+	padding-top:5px;
+	border:none;
+	-moz-box-shadow: 1px 1px 7px #000000;
+	-webkit-box-shadow: 1px 1px 7px #000000;
+	box-shadow: 1px 1px 7px #000000;
+	/*-moz-border-radius-topleft: 4px;
+	-moz-border-radius-topright:4px;
+    -moz-border-radius-bottomleft:4px;
+    -moz-border-radius-bottomright:4px;
+    -webkit-border-top-left-radius:4px;
+    -webkit-border-top-right-radius:4px;
+    -webkit-border-bottom-left-radius:4px;
+    -webkit-border-bottom-right-radius:4px;
+    border-top-left-radius:4px;
+    border-top-right-radius:4px;
+    border-bottom-left-radius:4px;
+    border-bottom-right-radius:4px;*/
+    background-color:#ffbbba;
+    color:#cd3645;
+    background-image:url("/images/error_icon.png");
+    background-repeat:no-repeat;
+    background-position:10px 0;
+    
+      border-radius:7px 7px; 
+    -moz-border-radius:5px; 
+    -webkit-border-radius: 5px;
+    
+}
+
+fieldset.statusError label
+{
+	font-size:larger;
+	font-weight:bold;
+	color:#cd3645;
+    padding-left:60px;    line-height: 1.35;
+}
+
+.statusError legend
+{
+	font: bold 1.2em "Trebuchet MS", Arial, Sans-Serif;
+	color:Red;
+	
+}
+
+fieldset.statusInfo
+{
+	font-size:larger;
+	width:990px;
+	margin-bottom:6px;
+	margin-top:10px;
+	padding:5px;
+	border:none;
+	-moz-box-shadow: 1px 1px 7px #000000;
+	-webkit-box-shadow: 1px 1px 7px #000000;
+	box-shadow: 1px 1px 7px #000000;
+	/*-moz-border-radius-topleft: 4px;
+	-moz-border-radius-topright:4px;
+    -moz-border-radius-bottomleft:4px;
+    -moz-border-radius-bottomright:4px;
+    -webkit-border-top-left-radius:4px;
+    -webkit-border-top-right-radius:4px;
+    -webkit-border-bottom-left-radius:4px;
+    -webkit-border-bottom-right-radius:4px;
+    border-top-left-radius:4px;
+    border-top-right-radius:4px;
+    border-bottom-left-radius:4px;
+    border-bottom-right-radius:4px;*/
+    background-color:#e1f2be;
+    background-image:url("/images/Blue-tick.png");
+    background-repeat:no-repeat;
+    background-position:10px 0;
+    color:#547429;
+     border-radius:7px 7px; 
+    -moz-border-radius:5px; 
+    -webkit-border-radius: 5px;
+    
+}
+
+fieldset.statusInfo label
+{
+	font-size:larger;
+	font-weight: bold;
+	color:#547429;
+    padding-left:60px;
+}
+
+.statusInfo legend
+{
+	font: bold 1.2em "Trebuchet MS", Arial, Sans-Serif;
+	color: #369;
+}
+
+fieldset.warning
+{
+	font-size:larger;
+	width:990px;
+	margin-bottom:10px;
+	padding:5px;
+	border:none;
+	-moz-box-shadow: 1px 1px 7px #000000;
+	-webkit-box-shadow: 1px 1px 7px #000000;
+	box-shadow: 1px 1px 7px #000000;
+	/*-moz-border-radius-topleft: 4px;
+	-moz-border-radius-topright:4px;
+    -moz-border-radius-bottomleft:4px;
+    -moz-border-radius-bottomright:4px;
+    -webkit-border-top-left-radius:4px;
+    -webkit-border-top-right-radius:4px;
+    -webkit-border-bottom-left-radius:4px;
+    -webkit-border-bottom-right-radius:4px;
+    border-top-left-radius:4px;
+    border-top-right-radius:4px;
+    border-bottom-left-radius:4px;
+    border-bottom-right-radius:4px;*/
+    background-color:#fff1b4;
+    background-image:url("/images/warning_icon.png");
+    background-repeat:no-repeat;
+    color:#dba54b;
+    background-position:10px 0;
+}
+
+fieldset.warning label
+{
+	font-size:larger;
+	font-weight:bold;
+	color:#dba54b;
+	padding-left:40px;
+}
+
+.warning legend
+{
+	font: bold 1.2em "Trebuchet MS", Arial, Sans-Serif;
+	color:#FFA500;
+	
+}
+
+fieldset.statusErrorDialog
+{
+	/*width:985px;*/
+	margin-bottom:10px;
+	padding:5px;
+}
+
+fieldset.statusErrorDialog label
+{
+	font-weight:bold;
+	color:Red;
+}
+
+.statusErrorDialog legend
+{
+	font: bold 1.2em "Trebuchet MS", Arial, Sans-Serif;
+	color:Red;
+}
+
+fieldset.statusInfoDialog
+{
+	/*width:985px;*/
+	margin-bottom:10px;
+	padding:5px;
+}
+
+fieldset.statusInfoDialog label
+{
+	font-weight: bold;
+	color:#369;
+}
+
+.statusInfoDialog legend
+{
+	font: bold 1.2em "Trebuchet MS", Arial, Sans-Serif;
+	color: #FF9148;
+}
+
+fieldset.warningDialog
+{
+	/*width:985px;*/
+	margin-bottom:10px;
+	padding:5px;
+}
+
+fieldset.warningDialog label
+{
+	font-weight:bold;
+	color:#FFA500;
+}
+
+.warningDialog legend
+{
+	font: bold 1.2em "Trebuchet MS", Arial, Sans-Serif;
+	color:#FFA500;
+}
+
+.rptHeader
+{
+	width:100%;
+	/*background-color:#dfdfdf;*/
+	background: #336699; 
+       
+	 border-radius: 7px 7px; 
+        -moz-border-radius:5px; 
+        -webkit-border-radius: 5px;
+}
+.rptItem
+{   	
+}
+.rptItem .itemHeader
+{
+    width:100%;background-color:inherit;
+}
+
+.rptItem h1
+{
+	font-size:x-large;
+}
+.rptItem h2
+{
+	clear: both;
+	padding: inherit;
+	margin: inherit;
+	background: inherit;
+	color: inherit;
+	font: inherit;
+	font-size:large;
+	font-weight:bold;
+	font-style:normal;
+}
+.rptItem .itemHeader .inner
+{
+	padding:0px 5px 0px 5px;
+}
+.rptItem .itemBody .inner
+{
+	padding:20px 5px 2px 5px;
+}
+.rptItem .itemBody
+{
+    background-color:#FAFAFA;width:100%;border-bottom:2px solid #cfcfcf;
+}
+.rptItem .itemFooter
+{
+    width:100%;
+}
+.rptItem .itemFooter .inner
+{
+	padding:0px 5px 0px 5px;
+}
+
+.simpleRptItem
+{
+}
+.simpleRptItem .itemBody .inner
+{
+	padding:2px 5px 2px 5px;
+}
+.simpleRptItem .itemBody
+{
+	width:100%;background-color:inherit;border-top:2px solid #cfcfcf;
+    /*background-color:inherit;width:100%;border-top:0px;border-bottom:1px dotted #9f9f9f;*/
+}
+.checkControl label
+{
+	font-weight:normal;
+	padding-left:5px;
+	position:relative;
+	top:-2px;
+}
+.tabPage 
+{
+	
+	padding:10px;
+}
+.tabPage h2
+{
+	background-color:#f4f3f3;
+	text-align:center;
+	color: inherit;
+	font-size: 12px;
+}
+.tabPage hr
+{
+	margin-top:2px;
+	margin-bottom:2px;
+	border-top:1px dotted #afafaf;
+}
+
+fieldset.messages
+{
+	color: Black;
+    margin: 0em 0px;
+    padding: 0em;
+    width:99%;
+}
+
+fieldset.messages a
+{
+	font-weight: bold;
+		color: #3f3f3f; 
+}
+.messageList 
+{
+	border-left:1px solid #828282;
+	padding:10px;
+}
+.messageList a
+{
+	font-size: 12px;
+	font-weight: bold;
+}
+.messageList hr
+{
+	margin-top:2px;
+	margin-bottom:2px;
+	border-top:1px dotted #afafaf;
+}
+.messageList h2
+{
+	background-color:#F4F3F3;
+	text-align:center;
+	color: inherit;
+	font-size: 12px;
+}
+.messageList label
+{
+	font-weight: bold;
+}
+.messageList table
+{
+	padding: 5px;
+}
+.messageDetail
+{
+	border-left:1px solid #828282;
+	padding:10px;
+}
+.messageDetail h1
+{
+	font-size: 12px;
+	font-weight: bold;
+}
+.messageDetail hr
+{
+	margin-top:10px;
+	margin-bottom:10px;
+	border-top:1px dotted #afafaf;
+}
+.messageDetail label
+{
+	font-weight: bold;
+}
+.resultFooter
+{
+	border-left:1px solid #828282;
+	border-bottom:1px solid #828282;
+	width:100%;
+}
+.dialogHeader
+{
+    background-color:#336699;
+   /* background-color: #217A9A;*/
+    color: White;
+    padding: 8px 4px 15px 4px;
+    border-top: 3px solid #cfcfcf;
+    border-bottom: 6px solid #cfcfcf;
+    margin-bottom:6px;
+}
+.dialogSubHeader
+{
+    padding: 2px 10px 8px 10px;
+    border-bottom: 2px solid #cfcfcf;
+    margin-bottom: 5px;
+}
+.dialogPreFooter
+{
+    padding: 8px 10px 2px 10px;
+    border-top: 2px solid #cfcfcf;
+    margin-top: 5px;
+}
+.dialogFooter
+{	
+    /*background-color: #217A9A;*/
+    background-color:#336699;
+    color: White;
+    border-top: 2px solid #cfcfcf;
+    border-bottom: 3px solid #cfcfcf;
+    height: 50px; /* specify a minimum height */
+   
+}
+.dialogFooter .inner
+{
+	padding: 10px 20px 10px 20px;
+}
+.dialogFooter a
+{
+	font-size: 1.2em;
+	color:White;
+	margin-left:10px;
+}
+.dialogFooter a:hover
+{
+	font-size: 1.2em;
+	color:White;
+	margin-left:10px;
+	text-decoration:underline;
+}
+.embeddedVideoContainer
+{
+	border-left: 3px solid #cfcfcf;
+	border-right: 3px solid #cfcfcf;
+}
+
+.providerSetup
+{
+}
+
+.providerSetup h3
+{
+    color: #FF9900;
+    padding:5px 0px 5px 0px;
+    font-size:14px;
+}
+
+.providerSetup .currentStep
+{
+    /*background-color:#217A9A;*/
+    background-color:#336699;
+}
+
+.leftNavigator
+{   
+}
+.leftNavigator td
+{   
+
+}
+.msgHeader2
+{
+background-color:#E6E6E6;
+margin:0px;
+height:22px;
+font-size:0.9em;
+
+    }
+.msgHeader1
+{
+    background-color:#FFFFFF;
+    margin:0px;
+    height:22px;
+    font-size:0.9em;
+    
+}
+.moreBtn
+{
+    
+}
+.companyDisplayPadding
+{
+    padding: 5px 0px 5px 78px;
+}
+
+
+
+/*Rollover Images*/
+ .button a  {
+ display : block;
+ background : url("/images/button.png") 0px 0px no-repeat;
+  /* '0px 0px' tells browser to start at top-left of the image */
+ width : 115px;
+ height : 20px;
+  /* width & height of individual link image */
+ font :  11px/18px Verdana, sans-serif;
+  /* '11px/18px' is the font-size and line-height  */
+  /* Adjust line-height to center the text in the block height (height : 20px) */
+ text-align : center;
+  /* can replace with 'text-indent : <length>' for different effect */
+ color : black;
+ text-decoration : none;
+ border-collapse:collapse;
+ border-spacing:0;
+ }
+ 
+ .button a:Visited  {
+ background : url("/images/button.png") 0px -40px no-repeat;
+  /* '-40px' tells browser the visited part is 40px down from top */
+ color : black;
+ }
+   
+ .button a:Hover  {
+ background : url("/images/button.png") 0px -20px no-repeat;
+  /* '-20px' tells browser the roll over part is 20px down from top */
+ color : black;
+ }
+ 
+ 
+ /*Rollover Images 2*/
+ .button2 a  {
+ display:block;
+ background : url("/images/button_green.png") 0px 0px no-repeat;
+  /* '0px 0px' tells browser to start at top-left of the image */
+ width : 115px;
+ height : 20px;
+  /* width & height of individual link image */
+ font :  11px/18px Verdana, sans-serif;
+  /* '11px/18px' is the font-size and line-height  */
+  /* Adjust line-height to center the text in the block height (height : 20px) */
+ text-align : center;
+  /* can replace with 'text-indent : <length>' for different effect */
+ color : black;
+ text-decoration : none;
+ }
+ 
+ .button2 a:Visited  {
+ background : url("/images/button_green.png") 0px -40px no-repeat;
+  /* '-40px' tells browser the visited part is 40px down from top */
+ color : black;
+ }
+   
+ .button2 a:Hover  {
+ background : url("/images/button_green.png") 0px -20px no-repeat;
+  /* '-20px' tells browser the roll over part is 20px down from top */
+ color : black;
+ }
+ 
+ /*Rollover createNoteButton Images */
+ .createNoteButton a  {
+ display:block;
+ background : url("/images/btn_createnote.png") 0px 0px no-repeat;
+  /* '0px 0px' tells browser to start at top-left of the image */
+ width : 95px;
+ height : 24px;
+  /* width & height of individual link image */
+ font :  11px/18px Verdana, sans-serif;
+  /* '11px/18px' is the font-size and line-height  */
+  /* Adjust line-height to center the text in the block height (height : 20px) */
+ text-align : center;
+  /* can replace with 'text-indent : <length>' for different effect */
+ color : black;
+ text-decoration : none;
+ }
+ 
+ .createNoteButton a:Visited  {
+ background : url("/images/btn_createnote.png") 0px -48px no-repeat;
+  /* '-40px' tells browser the visited part is 40px down from top */
+ color : black;
+ }
+   
+ .createNoteButton a:Hover  {
+ background : url("/images/btn_createnote.png") 0px -24px no-repeat;
+  /* '-20px' tells browser the roll over part is 20px down from top */
+ color : black;
+ }
+ 
+  /*Rollover BlockUserButton Images */
+ .BlockUserButton a  {
+ display:block;
+ background : url("/images/btn_blockuser.png") 0px 0px no-repeat;
+  /* '0px 0px' tells browser to start at top-left of the image */
+ width : 95px;
+ height : 24px;
+  /* width & height of individual link image */
+ font :  11px/18px Verdana, sans-serif;
+  /* '11px/18px' is the font-size and line-height  */
+  /* Adjust line-height to center the text in the block height (height : 20px) */
+ text-align : center;
+  /* can replace with 'text-indent : <length>' for different effect */
+ color : black;
+ text-decoration : none;
+ }
+ 
+ .BlockUserButton a:Visited  {
+ background : url("/images/btn_blockuser.png") 0px -48px no-repeat;
+  /* '-40px' tells browser the visited part is 40px down from top */
+ color : black;
+ }
+   
+ .BlockUserButton a:Hover  {
+ background : url("/images/btn_blockuser.png") 0px -24px no-repeat;
+  /* '-20px' tells browser the roll over part is 20px down from top */
+ color : black;
+ }
+ 
+ /*Rollover MakeAppoinmentButton Images */
+ .MakeAppoinmentButton a  {
+ display:block;
+ background : url("/images/Request-Meeting-40 2.png") 0px 0px no-repeat;
+  /* '0px 0px' tells browser to start at top-left of the image */
+ width : 185px;
+ height : 40px;
+  /* width & height of individual link image */
+ font :  11px/18px Verdana, sans-serif;
+  /* '11px/18px' is the font-size and line-height  */
+  /* Adjust line-height to center the text in the block height (height : 20px) */
+ text-align : center;
+  /* can replace with 'text-indent : <length>' for different effect */
+ color : black;
+ text-decoration : none;
+ }
+ 
+ .MakeAppoinmentButton a:Visited  {
+ background : url("/images/Request-Meeting-40 2.png") 0px -40px no-repeat;
+  /* '-40px' tells browser the visited part is 40px down from top */
+ color : black;
+ }
+   
+ .MakeAppoinmentButton a:Hover  {
+ background : url("/images/Request-Meeting-40 2.png") 0px -40px no-repeat;
+  /* '-20px' tells browser the roll over part is 20px down from top */
+ color : black;
+ }
+ 
+ /*Rollover UtilizeFreeSessionButton Images */
+ .UtilizeFreeSessionButton a  {
+ display:block;
+ background : url("/images/btn_make_appointment3.png") 0px 0px no-repeat;
+  /* '0px 0px' tells browser to start at top-left of the image */
+ width : 130px;
+ height : 24px;
+  /* width & height of individual link image */
+ font :  11px/18px Verdana, sans-serif;
+  /* '11px/18px' is the font-size and line-height  */
+  /* Adjust line-height to center the text in the block height (height : 20px) */
+ text-align : center;
+  /* can replace with 'text-indent : <length>' for different effect */
+ color : black;
+ text-decoration : none;
+ }
+ 
+ .UtilizeFreeSessionButton a:Visited  {
+ background : url("/images/btn_make_appointment.png") 0px -48px no-repeat;
+  /* '-40px' tells browser the visited part is 40px down from top */
+ color : black;
+ }
+   
+ .UtilizeFreeSessionButton a:Hover  {
+ background : url("/images/btn_make_appointment.png") 0px -24px no-repeat;
+  /* '-20px' tells browser the roll over part is 20px down from top */
+ color : black;
+ }
+ 
+ /*Rollover PinProviderButton Images */
+ .PinProviderButton a  {
+ display:block;
+ background : url("/images/btn_pinprovider.png") 0px 0px no-repeat;
+  /* '0px 0px' tells browser to start at top-left of the image */
+ width : 95px;
+ height : 24px;
+  /* width & height of individual link image */
+ font :  11px/18px Verdana, sans-serif;
+  /* '11px/18px' is the font-size and line-height  */
+  /* Adjust line-height to center the text in the block height (height : 20px) */
+ text-align : center;
+  /* can replace with 'text-indent : <length>' for different effect */
+ color : black;
+ text-decoration : none;
+ }
+ 
+ .PinProviderButton a:Visited  {
+ background : url("/images/btn_pinprovider.png") 0px -48px no-repeat;
+  /* '-40px' tells browser the visited part is 40px down from top */
+ /*color : black;*/
+ }
+   
+ .PinProviderButton a:Hover  {
+ background : url("/images/btn_pinprovider.png") 0px -24px no-repeat;
+  /* '-20px' tells browser the roll over part is 20px down from top */
+ color : black;
+ }
+ 
+ /*Rollover PinSubjectButton Images */
+ .PinSubjectButton a  {
+ display:block;
+ background : url("/images/btn_pinsubject.png") 0px 0px no-repeat;
+  /* '0px 0px' tells browser to start at top-left of the image */
+ width : 95px;
+ height : 24px;
+  /* width & height of individual link image */
+ font :  11px/18px Verdana, sans-serif;
+  /* '11px/18px' is the font-size and line-height  */
+  /* Adjust line-height to center the text in the block height (height : 20px) */
+ text-align : center;
+  /* can replace with 'text-indent : <length>' for different effect */
+ color : black;
+ text-decoration : none;
+ }
+ 
+ .PinSubjectButton a:Visited  {
+ background : url("/images/btn_pinsubject.png") 0px -48px no-repeat;
+  /* '-40px' tells browser the visited part is 40px down from top */
+ color : black;
+ }
+   
+ .PinSubjectButton a:Hover  {
+ background : url("/images/btn_pinsubject.png") 0px -24px no-repeat;
+  /* '-20px' tells browser the roll over part is 20px down from top */
+ color : black;
+ }
+ 
+ /*Rollover ProvideFeedbackButton Images */
+ .ProvideFeedbackButton a  {
+ display:block;
+ background : url("/images/btn_providefeedback.png") 0px 0px no-repeat;
+  /* '0px 0px' tells browser to start at top-left of the image */
+ width : 130px;
+ height : 24px;
+  /* width & height of individual link image */
+ font :  11px/18px Verdana, sans-serif;
+  /* '11px/18px' is the font-size and line-height  */
+  /* Adjust line-height to center the text in the block height (height : 20px) */
+ text-align : center;
+  /* can replace with 'text-indent : <length>' for different effect */
+ color : black;
+ text-decoration : none;
+ }
+ 
+ .ProvideFeedbackButton a:Visited  {
+ background : url("/images/btn_providefeedback.png") 0px -48px no-repeat;
+  /* '-40px' tells browser the visited part is 40px down from top */
+ color : black;
+ }
+   
+ .ProvideFeedbackButton a:Hover  {
+ background : url("/images/btn_providefeedback.png") 0px -24px no-repeat;
+  /* '-20px' tells browser the roll over part is 20px down from top */
+ color : black;
+ }
+ 
+  /*Rollover UnblockUserButton Images */
+ .UnblockUserButton a  {
+ display:block;
+ background : url("/images/btn_unblockuser.png") 0px 0px no-repeat;
+  /* '0px 0px' tells browser to start at top-left of the image */
+ width : 116px;
+ height : 24px;
+  /* width & height of individual link image */
+ font :  11px/18px Verdana, sans-serif;
+  /* '11px/18px' is the font-size and line-height  */
+  /* Adjust line-height to center the text in the block height (height : 20px) */
+ text-align : center;
+  /* can replace with 'text-indent : <length>' for different effect */
+ color : black;
+ text-decoration : none;
+ }
+ 
+ .UnblockUserButton a:Visited  {
+ background : url("/images/btn_unblockuser.png") 0px -48px no-repeat;
+  /* '-40px' tells browser the visited part is 40px down from top */
+ color : black;
+ }
+   
+ .UnblockUserButton a:Hover  {
+ background : url("/images/btn_unblockuser.png") 0px -24px no-repeat;
+  /* '-20px' tells browser the roll over part is 20px down from top */
+ color : black;
+ }
+ 
+  /*Rollover ReportAbuseButton Images */
+ .ReportAbuseButton a:link  {
+ display:block;
+ background : url("/images/btn_reportabuse.png") 0px 0px no-repeat;
+  /* '0px 0px' tells browser to start at top-left of the image */
+ width : 116px;
+ height : 24px;
+  /* width & height of individual link image 
+ font :  11px/18px Verdana, sans-serif;*/
+  /* '11px/18px' is the font-size and line-height  */
+  /* Adjust line-height to center the text in the block height (height : 20px) */
+ text-align : center;
+  /* can replace with 'text-indent : <length>' for different effect */
+ color : black;
+ text-decoration : none;
+ }
+ 
+ .ReportAbuseButton a:Visited  {
+ background : url("/images/btn_reportabuse.png") 0px -48px no-repeat;
+  /* '-40px' tells browser the visited part is 40px down from top */
+ color : black;
+ }
+   
+ .ReportAbuseButton a:Hover  {
+ background : url("/images/btn_reportabuse.png") 0px -24px no-repeat;
+  /* '-20px' tells browser the roll over part is 20px down from top */
+ color : black;
+ }
+ 
+   /*Rollover ViewNoteButton Images */
+ .ViewNoteButton a  {
+ display:block;
+ background : url("/images/btn_viewnote.png") 0px 0px no-repeat;
+  /* '0px 0px' tells browser to start at top-left of the image */
+ width : 95px;
+ height : 24px;
+  /* width & height of individual link image */
+ font :  11px/18px Verdana, sans-serif;
+  /* '11px/18px' is the font-size and line-height  */
+  /* Adjust line-height to center the text in the block height (height : 20px) */
+ text-align : center;
+  /* can replace with 'text-indent : <length>' for different effect */
+ color : black;
+ text-decoration : none;
+ }
+ 
+ .ViewNoteButton a:Visited  {
+ background : url("/images/btn_viewnote.png") 0px -48px no-repeat;
+  /* '-40px' tells browser the visited part is 40px down from top */
+ color : black;
+ }
+   
+ .ViewNoteButton a:Hover  {
+ background : url("/images/btn_viewnote.png") 0px -24px no-repeat;
+  /* '-20px' tells browser the roll over part is 20px down from top */
+ color : black;
+ }
+ 
+ 
+   /*Rollover smallButton Images */
+ .smallButton a  {
+ display:block;
+ background : url("/images/ia_normal_small.png") 0px 0px no-repeat;
+  /* '0px 0px' tells browser to start at top-left of the image */
+ width : 101px;
+ height : 32px;
+  /* width & height of individual link image */
+ font :  11px/32px Arial, sans-serif;
+ font-weight:bold;
+  /* '11px/18px' is the font-size and line-height  */
+  /* Adjust line-height to center the text in the block height (height : 20px) */
+ text-align : center;
+  /* can replace with 'text-indent : <length>' for different effect */
+ color : White;
+ text-decoration : none;
+ padding-top:0px;
+
+ }
+ 
+ .smallButton a:Visited  {
+ background : url("/images/ia_normal_small.png") 0px -64px no-repeat;
+  /* '-40px' tells browser the visited part is 40px down from top */
+ color : White;
+ text-align:center;
+ }
+   
+ .smallButton a:Hover  {
+ background : url("/images/ia_normal_small.png") 0px -32px no-repeat;
+  /* '-20px' tells browser the roll over part is 20px down from top */
+ color : White;
+ text-align:center;
+ }
+ 
+ 
+   /*Rollover largeButton Images */
+ .largeButton a  {
+ display:block;
+ background : url("/images/ia_normal_large.png") 0px 0px no-repeat;
+  /* '0px 0px' tells browser to start at top-left of the image */
+ width : 157px;
+ height : 32px;
+  /* width & height of individual link image */
+ font :  11px/32px Arial, sans-serif;
+ font-weight:bold;
+  /* '11px/18px' is the font-size and line-height  */
+  /* Adjust line-height to center the text in the block height (height : 20px) */
+ text-align : center;
+  /* can replace with 'text-indent : <length>' for different effect */
+ color : White;
+ text-decoration : none;
+ padding-top:0px;
+ }
+ 
+ .largeButton a:Visited  {
+ background : url("/images/ia_normal_large.png") 0px -64px no-repeat;
+  /* '-40px' tells browser the visited part is 40px down from top */
+ color : White;
+ text-align:center;
+ }
+   
+ .largeButton a:Hover  {
+ background : url("/images/ia_normal_large.png") 0px -32px no-repeat;
+  /* '-20px' tells browser the roll over part is 20px down from top */
+ color : White;
+ text-align:center;
+ }
+ 
+    /*Rollover extralargeButton Images */
+ .extralargeButton a  {
+ display:block;
+ background : url("/images/extrabutton.png") 0px 0px no-repeat;
+  /* '0px 0px' tells browser to start at top-left of the image */
+ width : 350px;
+ height : 29px;
+  /* width & height of individual link image */
+ font :  14px/20px Verdana, sans-serif;
+ font-weight:bold;
+  /* '11px/18px' is the font-size and line-height  */
+  /* Adjust line-height to center the text in the block height (height : 20px) */
+ text-align : center;
+  /* can replace with 'text-indent : <length>' for different effect */
+ color : #444;
+ text-decoration : none;
+ padding-top:1px;
+ }
+ 
+ .extralargeButton a:Visited  {
+ background : url("/images/extrabutton.png") 0px -58px no-repeat;
+  /* '-40px' tells browser the visited part is 40px down from top */
+ color : #444;
+ text-align:center;
+ }
+   
+ .extralargeButton a:Hover  {
+ background : url("/images/extrabutton.png") 0px -29px no-repeat;
+  /* '-20px' tells browser the roll over part is 20px down from top 
+ color : #217A9A;*/
+ color:Teal;
+ text-align:center;
+ }
+ 
+ .Become_a_provider a  {
+ display:block;
+ background : url("/images/btn_become_a_provider.png") 0px 0px no-repeat;
+  /* '0px 0px' tells browser to start at top-left of the image */
+ width : 170px;
+ height : 33px;
+  /* width & height of individual link image */
+ font :  10px/20px Verdana, sans-serif;
+ font-weight:bold;
+  /* '11px/18px' is the font-size and line-height  */
+  /* Adjust line-height to center the text in the block height (height : 20px) */
+ text-align : center;
+  /* can replace with 'text-indent : <length>' for different effect */
+ color : #444;
+ text-decoration : none;
+ padding-top:1px;
+ }
+ 
+ .Become_a_provider a:Visited  {
+ background : url("/images/btn_become_a_provider.png") 0px -48px no-repeat;
+  /* '-40px' tells browser the visited part is 40px down from top */
+ color : #444;
+ text-align:center;
+ }
+    
+ .Become_a_provider a:Hover  {
+ background : url("/images/btn_become_a_provider.png") 0px -33px no-repeat;
+  /* '-20px' tells browser the roll over part is 20px down from top 
+ color : #217A9A;*/
+ color:Teal;
+ text-align:center;
+ }
+ 
+ .Request_a_service a  {
+ display:block;
+ background : url("/images/btn_request_a_service.png") 0px 0px no-repeat;
+  /* '0px 0px' tells browser to start at top-left of the image */
+ width : 170px;
+ height : 33px;
+  /* width & height of individual link image */
+ font :  10px/20px Verdana, sans-serif;
+ font-weight:bold;
+  /* '11px/18px' is the font-size and line-height  */
+  /* Adjust line-height to center the text in the block height (height : 20px) */
+ text-align : center;
+  /* can replace with 'text-indent : <length>' for different effect */
+ color : #444;
+ text-decoration : none;
+ padding-top:1px;
+ }
+ 
+ .Request_a_service a:Visited  {
+ background : url("/images/btn_request_a_service.png") 0px -54px no-repeat;
+  /* '-40px' tells browser the visited part is 40px down from top */
+ color : #444;
+ text-align:center;
+ }
+    
+ .Request_a_service a:Hover  {
+ background : url("/images/btn_request_a_service.png") 0px -33px no-repeat;
+  /* '-20px' tells browser the roll over part is 20px down from top 
+ color : #217A9A;*/
+ color:Teal;
+ text-align:center;
+ }
+ 
+ /*Rollover ia_send_messageButton Images */
+ .ia_send_messageButton a  {
+ display:block;
+ background : url("/images/send-message-40 2.png") 0px 0px no-repeat;
+  /* '0px 0px' tells browser to start at top-left of the image */
+ width : 185px;
+ height : 40px;
+  /* width & height of individual link image */
+ font :  11px/18px Verdana, sans-serif;
+  /* '11px/18px' is the font-size and line-height  */
+  /* Adjust line-height to center the text in the block height (height : 20px) */
+ text-align : center;
+  /* can replace with 'text-indent : <length>' for different effect */
+ color : black;
+ text-decoration : none;
+ }
+ 
+ .ia_send_messageButton a:Visited  {
+ background : url("/images/send-message-40 2.png") 0px -80px no-repeat;
+  /* '-40px' tells browser the visited part is 40px down from top */
+ color : black;
+ }
+   
+ .ia_send_messageButton a:Hover  {
+ background : url("/images/send-message-40 2.png") 0px -40px no-repeat;
+  /* '-20px' tells browser the roll over part is 20px down from top */
+ color : black;
+ }
+ 
+
+.RadSocialShare.IAWrapper
+{
+    padding:0px;
+    border: 0;
+    background-color: transparent;
+}
+        
+.RadSocialShare.IAWrapper .sshCustomIcon
+{
+    width: 24px !important;
+    height: 24px !important;
+}
+
+
+.rwLoading    
+{    
+    background: white url('/images/img_loading.gif') no-repeat center !important;        
+           
+}
+
+.Message
+{
+	/*border-left:1px solid #828282;*/
+	padding:10px;
+}
+.Message h1
+{
+	font-size: 12px;
+	font-weight: bold;
+}
+.Message hr
+{
+	margin-top:10px;
+	margin-bottom:10px;
+	border-top:1px dotted #afafaf;
+}
+.Message label
+{
+	font-weight: bold;
+}
+
+.MessageHeader
+{
+    cursor:pointer;
+    background-color:#6F6F6F;
+    color:White;
+    margin-bottom:5px;
+}
+.MessageHeaderSelected
+{
+    cursor:pointer;
+    background-color:#336699;
+    color:White;
+}
+.MessageContent
+{
+    border:1px solid #828282;
+}
+
+.overlay {
+    position: fixed;
+    z-index: 99;
+    top: 0px;
+    left: 0px;
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 100%;
+    filter: Alpha(Opacity=70);
+    opacity: 0.70;
+    -moz-opacity: 0.70;
+}
+    
+.loader {
+        z-index: 100;
+        position: fixed;
+        width: 75px;
+        margin-left: -60px;
+        top: 50%;
+        left: 50%;
+ }
+ 
+        .rsUnavailable
+       {
+           width:100% !important;
+          
+       }
+       
+
+.Rotator
+{
+    height:350px;
+    width: 740px;
+    border:solid 0px #1a191a;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    background-color : #FAFAFA;
+    padding-left : 3px;
+    padding-top : 1px;
+}
+
+/*
+.Rotator .rrRelativeWrapper
+{
+    width : 596px;
+}
+*/
+/*
+.Rotator .rrRelativeWrapper .rrClipRegion
+{
+    left:0px !important;
+    border: 0px;
+    top: 2px;
+    position : relative;
+    width : 596px;
+}
+
+.Rotator .rrRelativeWrapper .rrClipRegion .rrItemList
+{
+    background-color : #489fe7;
+} 
+
+.Rotator .rrRelativeWrapper .rrClipRegion .rrItemList .rrItem
+{
+    width:293px;
+    height:292px;
+    background-color : #489fe7;
+}   
+
+*/
+/*#span.text
+    {
+        line-height:10px;
+        padding-top:10px;
+        padding-bottom:10px;
+        
+        }*/
+        
+
+
+#header {
+    height: 50px;
+    padding-top: 5px;
+}
+.container {
+    clear: both;
+    margin: 0 auto;
+    position: relative;
+    width: 1000px;
+} 
+#register {
+    color: #666666;
+    font-weight: 900;
+    float:right;
+    margin:20px 15px 0px 0px;
+    font-size:16px;
+    text-decoration:none;
+   }
+ #header:hover
+ {
+     
+     
+}
+
+
+/*---------------------------------------LandingPage--------------------------------------*/
+.selectedprofiles{
+	background:#fff;
+	border:solid 1px #ccc;
+    clear:both;
+     border-radius:30px 30px 0px 0px; 
+    -moz-border-radius:20px; 
+    -webkit-border-radius: 20px;
+    border-top:solid 1px #fff;
+}
+.selectedprofile
+{
+    border-bottom:solid #ccc 1px;
+    padding-bottom:10px;
+    padding-top:10px;
+   
+}
+.selectedprofile:hover
+{
+    background:#fafafa;
+}
+
+
+
+/* ---------- Buttons ------------ */
+
+ .nextButton a  {
+     display:block;
+     background : url("/images/Next2.png") 0px 0px no-repeat;
+     width : 28px;
+     height : 29px;
+
+ }
+  .nextButton a:Hover  {
+    background : url("/images/Next2.png") 0px -29px no-repeat;
+ }
+ 
+ 
+  .previousButton a  {
+     display:block;
+     background : url("/images/Previous2.png") 0px 0px no-repeat;
+     width : 28px;
+     height : 29px;
+
+ }
+  .previousButton a:Hover  {
+    background : url("/images/Previous2.png") 0px -29px no-repeat;
+ }
+ 
+ .editButton a  {
+     display:block;
+     background : url("/images/edit2.png") 0px 0px no-repeat;
+     width : 28px;
+     height : 28px;
+
+ }
+  .editButton a:Hover  {
+    background : url("/images/edit2.png") 0px -28px no-repeat;
+ }
+ 
+ 
+ 
+  .photoUploadButton a  {
+     display:block;
+     background : url("/images/Photo-upload2.png") 0px 0px no-repeat;
+     width : 28px;
+     height : 28px;
+
+ }
+  .photoUploadButton a:Hover  {
+    background : url("/images/Photo-upload2.png") 0px -28px no-repeat;
+ }
+ 
+ .videoDeleteButton a  {
+     display:block;
+     background : url("/images/Video-Delete2.png") 0px 0px no-repeat;
+     width : 28px;
+     height : 28px;
+
+ }
+  .videoDeleteButton a:Hover  {
+    background : url("/images/Video-Delete2.png") 0px -28px no-repeat;
+ }
+ .removeItem a  {
+     display:block;
+     background : url("/images/btn_del.png") 0px 0px no-repeat;
+     width : 28px;
+     height : 28px;
+     float: right;
+margin-right: -5px;
+
+ }
+  .removeItem a:Hover  {
+    background : url("/images/btn_del.png") 0px -28px no-repeat;
+ }
+ 
+ .videoPreviewButton a  {
+     display:block;
+     background : url("/images/Video-Preview2.png") 0px 0px no-repeat;
+     width : 27px;
+     height : 30px;
+
+ }
+  .videoPreviewButton a:Hover  {
+    background : url("/images/Video-Preview2.png") 0px -30px no-repeat;
+ }
+ 
+ .videoUploadButton a  {
+     display:block;
+     background : url("/images/Video-Upload2.png") 0px 0px no-repeat;
+     width : 28px;
+     height : 28px;
+
+ }
+  .videoUploadButton a:Hover  {
+    background : url("/images/Video-Upload2.png") 0px -28px no-repeat;
+ }
+ 
+ .LinkedInImportButton a  {
+     display:block;
+     background : url("/images/Linkedin2.png") 0px 0px no-repeat;
+     width : 28px;
+     height : 28px;
+ }
+ 
+ .LinkedInImportButton a:Hover  {
+    background : url("/images/Linkedin2.png") 0px -28px no-repeat;
+ }
+ 
+ .registerButton a  {
+     display:block;
+     background : url("/images/register2.png") 0px 0px no-repeat;
+     width : 28px;
+     height : 28px;
+
+ }
+  .registerButton a:Hover  {
+    background : url("/images/register2.png") 0px -28px no-repeat;
+ }
+ 
+ .addButton a  {
+     display:block;
+     background : url("/images/add2.png") 0px 0px no-repeat;
+     width : 28px;
+     height : 28px;
+
+ }
+ .addButton a:Hover  {
+    background : url("/images/add2.png") 0px -28px no-repeat;
+ }
+
+
+ .deleteButton a  {
+     display:block;
+     background : url("/images/delete2.png") 0px 0px no-repeat;
+     width : 28px;
+     height : 28px;
+
+ }
+ .deleteButton a:Hover  {
+    background : url("/images/delete2.png") 0px -28px no-repeat;
+ }
+ 
+ .playButton a  {
+     display:block;
+     background : url("/images/Play2.png") 0px 0px no-repeat;
+     width : 28px;
+     height : 28px;
+
+ }
+ .playButton a:Hover  {
+    background : url("/images/Play2.png") 0px -28px no-repeat;
+ }
+ 
+ .reloadButton a  {
+     display:block;
+     background : url("/images/Reload2.png") 0px 0px no-repeat;
+     width : 28px;
+     height : 28px;
+
+ }
+ .reloadButton a:Hover  {
+    background : url("/images/Reload2.png") 0px -28px no-repeat;
+ }
+ 
+ .updateButton a  {
+     display:block;
+     background : url("/images/update2.png") 0px 0px no-repeat;
+     width : 95px;
+     height : 32px;
+
+ }
+ .updateButton a:Hover  {
+    background : url("/images/update2.png") 0px -32px no-repeat;
+ }
+ 
+  .resetButton a  {
+     display:block;
+     background : url("/images/Reset_2.png") 0px 0px no-repeat;
+     width : 95px;
+     height : 32px;
+
+ }
+ .resetButton a:Hover  {
+    background : url("/images/Reset_2.png") 0px -32px no-repeat;
+ }
+ 
+ .updatePassword a
+ {
+     display:block;
+     background : url("/images/updatepw.png") 0px 0px no-repeat;
+     width : 148px;
+     height : 32px;
+     }
+ .updatePassword a:Hover
+ {
+     background : url("/images/updatepw.png") 0px -32px no-repeat;
+     }
+ 
+ 
+ .paynowButton a
+ {
+     display:block;
+     background : url("/images/paynow.png") 0px 0px no-repeat;
+     width : 95px;
+     height : 32px;
+     }
+  .paynowButton a:Hover
+  {
+      
+      background : url("/images/paynow.png") 0px -32px no-repeat;
+      }
+      
+  .requestService a
+  {
+      display:block;
+     background : url("/images/btn_requestService.png") 0px 0px no-repeat;
+     width : 148px;
+     height : 32px;
+   }
+      
+  .requestService a:Hover
+  {
+       background : url("/images/btn_requestService.png") 0px -32px no-repeat;
+  }
+      
+ .confirmBtn a
+ {
+     display:block;
+     background:url("/images/confirmBtn.png") 0px 0px no-repeat;
+     width : 148px;
+     height : 32px;
+     }
+     
+ .confirmBtn a:Hover
+ {
+     background : url("/images/confirmBtn.png") 0px -32px no-repeat;
+     
+     }    
+     
+     
+.withdrowmoney a
+{
+    display:block;
+    background : url("/images/withdrowmoney.png") 0px 0px no-repeat;
+    width : 95px;
+     height : 32px;
+    }
+.withdrowmoney a:Hover
+{
+    background : url("/images/withdrowmoney.png") 0px -32px no-repeat;
+    }
+.cancelButton a  {
+     display:block;
+     background : url("/images/Cancel2.png") 0px 0px no-repeat;
+     width : 29px;
+     height : 28px;
+
+ }
+ .cancelButton a:Hover  {
+    background : url("/images/Cancel2.png") 0px -28px no-repeat;
+ }
+
+.createButton a  {
+     display:block;
+     background : url("/images/create-txt2.png") 0px 0px no-repeat;
+     width : 93px;
+     height : 32px;
+
+ }
+ .createButton a:Hover  {
+    background : url("/images/create-txt2.png") 0px -32px no-repeat;
+ }
+ 
+ 
+ .linkButton a  {
+     display:block;
+     background : url("/images/Link 2.png") 0px 0px no-repeat;
+     width : 95px;
+     height : 32px;
+
+ }
+  .linkButton a:Hover  {
+    background : url("/images/Link 2.png") 0px -32px no-repeat;
+ }
+ 
+ .linkServiceButton a  {
+     display:block;
+     background : url("/images/Link-to-a-service2.png") 0px 0px no-repeat;
+     width : 148px;
+     height : 32px;
+
+ }
+  .linkServiceButton a:Hover  {
+    background : url("/images/Link-to-a-service2.png") 0px -32px no-repeat;
+ }
+ 
+  .addServiceButton a  {
+     display:block;
+     background : url("/images/Add-a-service2.png") 0px 0px no-repeat;
+     width : 148px;
+     height : 32px;
+
+ }
+  .addServiceButton a:Hover  {
+    background : url("/images/Add-a-service2.png") 0px -32px no-repeat;
+ }
+ 
+ 
+/*Corners of blue bars*/
+.bluebar_radious
+{
+    border-radius:7px 7px; 
+    -moz-border-radius:5px; 
+    -webkit-border-radius: 5px;
+    
+    }
+    .bluebar_radious1
+{
+    border-radius:7px 7px 0px 0px; 
+    -moz-border-radius:5px; 
+    -webkit-border-radius: 5px;
+    
+    }
+    .headingsNew
+    {
+        background: #336699; 
+        color: White;
+	    padding: 5px 100px 5px 15px;
+	    font: bold 1.2em "Trebuchet MS", Arial, Sans-Serif;
+	    margin: 0 0 10px 0;
+	    border-radius: 7px 7px; 
+        -moz-border-radius:5px; 
+        -webkit-border-radius: 5px;
+        
+        }
+/*Added By Jaliya*/
+
+.input_profile_edit
+
+{
+   display:block;  
+   padding-left:5px;
+     padding-right:5px;
+    
+    }
+    
+    a img {outline : none; border: none;border:0}
+    
+    
+    a:active, a:selected, a:visited { 
+    border: none;
+    outline: none;
+}
+
+
+
+ .joinmeeting a  {
+ display:block;
+ background : url("/images/Join-Meeting.png") 0px 0px no-repeat;
+  /* '0px 0px' tells browser to start at top-left of the image */
+ width : 148px;
+ height : 32px;
+  /* width & height of individual link image */
+ font :  10px/20px Verdana, sans-serif;
+ font-weight:bold;
+  /* '11px/18px' is the font-size and line-height  */
+  /* Adjust line-height to center the text in the block height (height : 20px) */
+ text-align : center;
+  /* can replace with 'text-indent : <length>' for different effect */
+ color : #444;
+ text-decoration : none;
+ padding-top:1px;
+ }
+ 
+ .joinmeeting a:Visited  {
+ background : url("/images/Join-Meeting.png") 0px -32px no-repeat;
+  /* '-40px' tells browser the visited part is 40px down from top */
+ color : #444;
+ text-align:center;
+ }
+    
+ .joinmeeting a:Hover  {
+ background : url("/images/Join-Meeting.png") 0px -32px no-repeat;
+  /* '-20px' tells browser the roll over part is 20px down from top 
+ color : #217A9A;*/
+ color:Teal;
+ text-align:center;
+ }
+ 
+ 
+ .confirm_app a  {
+ display:block;
+ background : url("/images/confirmBtn.png") 0px 0px no-repeat;
+  /* '0px 0px' tells browser to start at top-left of the image */
+ width : 95px;
+ height : 32px;
+  /* width & height of individual link image */
+ font :  10px/20px Verdana, sans-serif;
+ font-weight:bold;
+  /* '11px/18px' is the font-size and line-height  */
+  /* Adjust line-height to center the text in the block height (height : 20px) */
+ text-align : center;
+  /* can replace with 'text-indent : <length>' for different effect */
+ color : #444;
+ text-decoration : none;
+ padding-top:1px;
+ }
+ 
+ .confirm_app a:Visited  {
+ background : url("/images/confirmBtn.png") 0px -32px no-repeat;
+  /* '-40px' tells browser the visited part is 40px down from top */
+ color : #444;
+ text-align:center;
+ }
+    
+ .confirm_app a:Hover  {
+ background : url("/images/confirmBtn.png") 0px -32px no-repeat;
+  /* '-20px' tells browser the roll over part is 20px down from top 
+ color : #217A9A;*/
+ color:Teal;
+ text-align:center;
+ }
+ 
+  .decline_app a  {
+ display:block;
+ background : url("/images/Decline_app.png") 0px 0px no-repeat;
+  /* '0px 0px' tells browser to start at top-left of the image */
+ width : 95px;
+ height : 32px;
+  /* width & height of individual link image */
+ font :  10px/20px Verdana, sans-serif;
+ font-weight:bold;
+  /* '11px/18px' is the font-size and line-height  */
+  /* Adjust line-height to center the text in the block height (height : 20px) */
+ text-align : center;
+  /* can replace with 'text-indent : <length>' for different effect */
+ color : #444;
+ text-decoration : none;
+ padding-top:1px;
+ }
+ 
+ .decline_app a:Visited  {
+ background : url("/images/Decline_app.png") 0px -32px no-repeat;
+  /* '-40px' tells browser the visited part is 40px down from top */
+ color : #444;
+ text-align:center;
+ }
+    
+ .decline_app a:Hover  {
+ background : url("/images/Decline_app.png") 0px -32px no-repeat;
+  /* '-20px' tells browser the roll over part is 20px down from top 
+ color : #217A9A;*/
+ color:Teal;
+ text-align:center;
+ }
+ 
+  .cancel_app a  {
+ display:block;
+ background : url("/images/Cancel2.png") 0px 0px no-repeat;
+  /* '0px 0px' tells browser to start at top-left of the image */
+ width : 28px;
+ height : 28px;
+  /* width & height of individual link image */
+ font :  10px/20px Verdana, sans-serif;
+ font-weight:bold;
+  /* '11px/18px' is the font-size and line-height  */
+  /* Adjust line-height to center the text in the block height (height : 20px) */
+ text-align : center;
+  /* can replace with 'text-indent : <length>' for different effect */
+ color : #444;
+ text-decoration : none;
+ padding-top:1px;
+ }
+ 
+ .cancel_app a:Visited  {
+ background : url("/images/Cancel2.png") 0px -28px no-repeat;
+  /* '-40px' tells browser the visited part is 40px down from top */
+ color : #444;
+ text-align:center;
+ }
+    
+ .cancel_app a:Hover  {
+ background : url("/images/Cancel2.png") 0px -28px no-repeat;
+  /* '-20px' tells browser the roll over part is 20px down from top 
+ color : #217A9A;*/
+ color:Teal;
+ text-align:center;
+ }
+ 
+   .register_account a  {
+ display:block;
+ background : url("/images/registeraccount.png") 0px 0px no-repeat;
+  /* '0px 0px' tells browser to start at top-left of the image */
+ width : 95px;
+ height : 32px;
+  /* width & height of individual link image */
+ font :  10px/20px Verdana, sans-serif;
+ font-weight:bold;
+  /* '11px/18px' is the font-size and line-height  */
+  /* Adjust line-height to center the text in the block height (height : 20px) */
+ text-align : center;
+  /* can replace with 'text-indent : <length>' for different effect */
+ color : #444;
+ text-decoration : none;
+ padding-top:1px;
+ }
+ 
+ .register_account a:Visited  {
+ background : url("/images/registeraccount.png") 0px -32px no-repeat;
+  /* '-40px' tells browser the visited part is 40px down from top */
+ color : #444;
+ text-align:center;
+ }
+    
+ .register_account a:Hover  {
+ background : url("/images/registeraccount.png") 0px -32px no-repeat;
+  /* '-20px' tells browser the roll over part is 20px down from top 
+ color : #217A9A;*/
+ color:Teal;
+ text-align:center;
+ }
+ 
+
+.crop2 {
+    display:block;
+ background : url("/images/crop2.png") 0px 0px no-repeat;
+  /* '0px 0px' tells browser to start at top-left of the image */
+ width : 94px;
+ height : 32px;
+  /* width & height of individual link image */
+ 
+ padding-top:1px;
+   
+}
+
+.crop2:hover {
+    background : url("/images/crop2.png") 0px -32px no-repeat;
+}
+    
+.cropconfirm {
+    display:block;
+ background : url("/images/Confirm-Image 2.png") 0px 0px no-repeat;
+  /* '0px 0px' tells browser to start at top-left of the image */
+ width : 148px;
+ height : 31px;
+  /* width & height of individual link image */
+ 
+ padding-top:1px;
+   
+}
+
+.cropconfirm:hover {
+    background : url("/images/Confirm-Image 2.png") 0px -32px no-repeat;
+}
+
+.signin_verify a  {
+ display:block;
+ background : url("/images/Signin-ro.png") 0px 0px no-repeat;
+  /* '0px 0px' tells browser to start at top-left of the image */
+ width : 95px;
+ height : 32px;
+  /* width & height of individual link image */
+ font :  10px/20px Verdana, sans-serif;
+ font-weight:bold;
+  /* '11px/18px' is the font-size and line-height  */
+  /* Adjust line-height to center the text in the block height (height : 20px) */
+ text-align : center;
+  /* can replace with 'text-indent : <length>' for different effect */
+ color : #444;
+ text-decoration : none;
+ padding-top:1px;
+ }
+ 
+ .signin_verify a:Visited  {
+ background : url("/images/Signin-ro.png") 0px -32px no-repeat;
+  /* '-40px' tells browser the visited part is 40px down from top */
+ color : #444;
+ text-align:center;
+ }
+    
+ .signin_verify a:Hover  {
+ background : url("/images/Signin-ro.png") 0px -32px no-repeat;
+  /* '-20px' tells browser the roll over part is 20px down from top 
+ color : #217A9A;*/
+ color:Teal;
+ text-align:center;
+ }
+ 
+    .become_provider a  {
+ display:block;
+ background : url("/images/Become-a-provider 2.png") 0px 0px no-repeat;
+  /* '0px 0px' tells browser to start at top-left of the image */
+ width : 148px;
+ height : 31px;
+  /* width & height of individual link image */
+ font :  10px/20px Verdana, sans-serif;
+ font-weight:bold;
+  /* '11px/18px' is the font-size and line-height  */
+  /* Adjust line-height to center the text in the block height (height : 20px) */
+ text-align : center;
+  /* can replace with 'text-indent : <length>' for different effect */
+ color : #444;
+ text-decoration : none;
+ padding-top:1px;
+ }
+ 
+ .become_provider a:Visited  {
+ background : url("/images/Become-a-provider 2.png") 0px -32px no-repeat;
+  /* '-40px' tells browser the visited part is 40px down from top */
+ color : #444;
+ text-align:center;
+ }
+    
+ .become_provider a:Hover  {
+ background : url("/images/Become-a-provider 2.png") 0px -32px no-repeat;
+  /* '-20px' tells browser the roll over part is 20px down from top 
+ color : #217A9A;*/
+ color:Teal;
+ text-align:center;
+ }
+ #ContainerStatus
+ 
+ {padding-left:4px;}
+ 
+ .DialogNotification
+{font-size: 11px;line-height: 13px;margin-left:10px;}
+
+#circularG{
+position:relative;
+width:70px;
+height:70px}
+
+.circularG{
+position:absolute;
+background-color:#336699;
+width:16px;
+height:16px;
+-moz-border-radius:11px;
+-moz-animation-name:bounce_circularG;
+-moz-animation-duration:0.48s;
+-moz-animation-iteration-count:infinite;
+-moz-animation-direction:linear;
+-webkit-border-radius:11px;
+-webkit-animation-name:bounce_circularG;
+-webkit-animation-duration:0.48s;
+-webkit-animation-iteration-count:infinite;
+-webkit-animation-direction:linear;
+-ms-border-radius:11px;
+-ms-animation-name:bounce_circularG;
+-ms-animation-duration:0.48s;
+-ms-animation-iteration-count:infinite;
+-ms-animation-direction:linear;
+-o-border-radius:11px;
+-o-animation-name:bounce_circularG;
+-o-animation-duration:0.48s;
+-o-animation-iteration-count:infinite;
+-o-animation-direction:linear;
+border-radius:11px;
+animation-name:bounce_circularG;
+animation-duration:0.48s;
+animation-iteration-count:infinite;
+animation-direction:linear;
+}
+
+#circularG_1{
+left:0;
+top:28px;
+-moz-animation-delay:0.18s;
+-webkit-animation-delay:0.18s;
+-ms-animation-delay:0.18s;
+-o-animation-delay:0.18s;
+animation-delay:0.18s;
+}
+
+#circularG_2{
+left:7px;
+top:7px;
+-moz-animation-delay:0.24s;
+-webkit-animation-delay:0.24s;
+-ms-animation-delay:0.24s;
+-o-animation-delay:0.24s;
+animation-delay:0.24s;
+}
+
+#circularG_3{
+top:0;
+left:28px;
+-moz-animation-delay:0.3s;
+-webkit-animation-delay:0.3s;
+-ms-animation-delay:0.3s;
+-o-animation-delay:0.3s;
+animation-delay:0.3s;
+}
+
+#circularG_4{
+right:7px;
+top:7px;
+-moz-animation-delay:0.36s;
+-webkit-animation-delay:0.36s;
+-ms-animation-delay:0.36s;
+-o-animation-delay:0.36s;
+animation-delay:0.36s;
+}
+
+#circularG_5{
+right:0;
+top:28px;
+-moz-animation-delay:0.42s;
+-webkit-animation-delay:0.42s;
+-ms-animation-delay:0.42s;
+-o-animation-delay:0.42s;
+animation-delay:0.42s;
+}
+
+#circularG_6{
+right:7px;
+bottom:7px;
+-moz-animation-delay:0.48s;
+-webkit-animation-delay:0.48s;
+-ms-animation-delay:0.48s;
+-o-animation-delay:0.48s;
+animation-delay:0.48s;
+}
+
+#circularG_7{
+left:28px;
+bottom:0;
+-moz-animation-delay:0.54s;
+-webkit-animation-delay:0.54s;
+-ms-animation-delay:0.54s;
+-o-animation-delay:0.54s;
+animation-delay:0.54s;
+}
+
+#circularG_8{
+left:7px;
+bottom:7px;
+-moz-animation-delay:0.6s;
+-webkit-animation-delay:0.6s;
+-ms-animation-delay:0.6s;
+-o-animation-delay:0.6s;
+animation-delay:0.6s;
+}
+
+@-moz-keyframes bounce_circularG{
+0%{
+-moz-transform:scale(1)}
+
+100%{
+-moz-transform:scale(.3)}
+
+}
+
+@-webkit-keyframes bounce_circularG{
+0%{
+-webkit-transform:scale(1)}
+
+100%{
+-webkit-transform:scale(.3)}
+
+}
+
+@-ms-keyframes bounce_circularG{
+0%{
+-ms-transform:scale(1)}
+
+100%{
+-ms-transform:scale(.3)}
+
+}
+
+@-o-keyframes bounce_circularG{
+0%{
+-o-transform:scale(1)}
+
+100%{
+-o-transform:scale(.3)}
+
+}
+
+@keyframes bounce_circularG{
+0%{
+transform:scale(1)}
+
+100%{
+transform:scale(.3)}
+
+}
+
+#div_progress{position:absolute;z-index:1000;}
+
+.EditPageFooterLine
+{   border-top: 1px solid #cfcfcf;     
+    padding: 5px 0px 5px 0; 
+    width:99%; 
+    margin-left:8px;
+    margin-top:12px;
+    
+}
+
+.TextAreaDragHorizontal
+{
+    font-family:Tahoma, helvetica, Arial, Sans-Serif;
+    color:#414141 ;
+    Font-Size:1em;
+    Resize:vertical;
+    width:354px;
+}
+.aspTextBox
+{
+    width:350px;
+    height:20px;
+}
+
+.aspDropDownList
+{
+    height:20px;
+}
+
+.comboBox
+{
+}
+.service_edit
+{
+}
+
+.service_edit .comboBox
+{
+    height:24px;
+    width:176px;
+}
+.service_edit .title
+{
+    width:354px;
+    height:20px;
+}
+
+@-moz-document url-prefix() 
+{
+    .service_edit .title
+    {
+        width:302px;
+        height:20px;
+    }
+}
+
+
+        
+        .Base
+    {
+    display: inline-block;
+    font: bolder 10px "segoe ui",arial,sans-serif;
+    height: 13px;
+    overflow: hidden;
+    text-align: center;
+    vertical-align: middle;
+    width: 200px;
+color:#fff !important;
+font-weight:800;
+vertical-align: top;
+    }
+      
+    .L0{border: 0 none; }
+
+

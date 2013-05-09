@@ -1,0 +1,34 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/InteractiveBase.master" AutoEventWireup="true" CodeBehind="StandardMaster.master.cs" Inherits="IntelArcade.WebApp.StandardMaster" %>
+<%@ Register src="~/UserControls/RightNavColumn.ascx" tagname="RightNavColumn" tagprefix="uc1" %>
+<%@ Register src="~/InfoBoxes/WhyRegister.ascx" tagname="WhyRegister" tagprefix="uc1" %>
+<%--<%@ Register src="UserControls/VideoPlayer.ascx" tagname="VideoPlayer" tagprefix="uc1" %>--%>
+<%@ Register Src="~/UserControls/Ticker.ascx" TagName="Ticker" TagPrefix="uc1" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentHead" runat="server">
+    <asp:ContentPlaceHolder runat="server" ID="ContentHead" />
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentBody" runat="server">
+
+    <div class="tickerBar" style="width: auto; height: 60px; clear: both; line-height: 15px; margin-bottom:10px; display:none;">
+        <uc1:Ticker runat="server" ID="Ticker" />
+    </div>
+    <div style="margin-top:10px;"">
+    <div class="contentBody">
+        <asp:ContentPlaceHolder ID="ContentBody" runat="server" />
+    </div>
+    <div class="contentRight">
+<%--        <div style="padding:5px 0px 5px 0px;">
+            <div style="padding-bottom:10px;">
+                <uc1:VideoPlayer ID="VideoPlayer1" runat="server" Width="350" Hight="218" ImageUrl="/images/frontPageVideoImage1.png" ResourceSettingName="FrontPageVideo3"/>
+            </div>
+            <div style="height:88px"><a href="../SelectionGuide.aspx"><img src="/images/Step-1.png" height="80px" width="80px" style="border:0px;" /></a><img src="/images/arrow.png" height="80px" width="50px" style="border:0px;" /><a href="../SelectionGuide.aspx"><img src="/images/Step-2.png" height="80px" width="80px" style="border:0px;"/></a><img src="/images/arrow.png" height="80px" width="50px" style="border:0px;" /><a href="../InvoiceGuide.aspx"><img src="/images/Step-3.png" height="80px" width="80px" style="border:0px;"/></a></div>
+            <div style="padding-top:2px; padding-bottom:2px; margin-top:3px; height:34px;">
+                <span class="Become_a_provider" style="width:170px; float:left;"><a href="/ProviderSetup/CompanyDisplay.aspx"></a></span><span class="Request_a_service" style="width:170px; float:right; "><a href="#"></a></span>
+            </div>
+        </div>--%>
+        <asp:ContentPlaceHolder ID="ContentRightAbove" runat="server" />
+        <uc1:RightNavColumn runat="server" />
+        <uc1:whyregister ID="WhyRegister" runat="server" />
+        <asp:ContentPlaceHolder ID="ContentRightBelow" runat="server" />
+    </div>
+</div>
+</asp:Content>

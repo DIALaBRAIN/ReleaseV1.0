@@ -1,0 +1,11 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/MasterBase.Master" AutoEventWireup="true" CodeBehind="InteractiveBase.master.cs" Inherits="IntelArcade.WebApp.InteractiveBase" %>
+<asp:Content ID="OuterContentHead" ContentPlaceHolderID="ContentHead" runat="server">
+    <asp:ContentPlaceHolder ID="ContentHead" runat="server" />
+
+</asp:Content>
+
+<asp:Content ID="OuterContentBody" ContentPlaceHolderID="ContentBody" runat="server">
+        <div runat="server" id="ContainerStatus" style="width:100%;">
+        </div>
+        <asp:ContentPlaceHolder ID="ContentBody" runat="server" />        
+</asp:Content>

@@ -1,0 +1,67 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="DialogMaster.master.cs" Inherits="IntelArcade.WebApp.DialogMaster" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title runat="server" id="PageTitleElement"></title>
+    <link rel="stylesheet" href="Styles/Default-100.css" type="text/css" />
+    <link rel="stylesheet" href="Styles/Controls-100.css" type="text/css" />
+    <meta http-equiv="content-type" content="text/html;charset=iso-8859-1" />
+    <style type="text/css">
+        html,body,form {
+	        margin:0;
+	        padding:0;
+	        height:100%; /* needed for container min-height */
+        }
+
+        div#dialogContainer {
+	        position:relative; /* needed for footer positioning*/
+	        margin:0 auto; /* center, not in IE5 */
+	        width:100%;
+	
+	        height:auto !important; /* real browsers */
+	        height:100%; /* IE6: treaded as min-height*/
+
+	        min-height:100%; /* real browsers */
+        }
+
+
+        div#dialogFooter {
+	        position:absolute;
+	        width:100%;
+	        bottom:0; /* stick to bottom */
+        }
+        
+        .dialogPreFooter 
+        {
+            padding: 0px 10px 2px;
+        }
+    </style>
+    <asp:ContentPlaceHolder ID="ContentHead" runat="server" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <iac:IAScriptManager ID="ScriptManager" runat="server" EnablePartialRendering="true" EnableScriptGlobalization="true" EnableScriptLocalization="true" EnablePageMethods="true">
+        <Scripts>
+            <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Core.js" />
+            <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQuery.js" />
+            <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQueryInclude.js" />
+        </Scripts>
+    </iac:IAScriptManager>
+    <div id="dialogContainer" class="content">
+        <div runat="server" id="ContainerHeader" class="dialogHeader">
+            <asp:ContentPlaceHolder ID="ContentDialogHeader" runat="server" />
+        </div>
+        <div style="padding-left:4px;padding-right:4px;"><div runat="server" id="ContainerStatus" style="width:100%;" /></div>
+        <div style="min-height:100%;">
+            <asp:ContentPlaceHolder ID="ContentBody" runat="server" />
+        </div>
+        <div id="dialogFooter">
+            <div runat="server" id="ContainerPreFooter" class="dialogPreFooter"><asp:ContentPlaceHolder ID="ContentDialogPreFooter" runat="server" /></div>
+            <div runat="server" id="ContainerFooter" class="dialogFooter">
+                <div class="inner"><asp:ContentPlaceHolder ID="ContentDialogFooter" runat="server" /></div>
+            </div>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

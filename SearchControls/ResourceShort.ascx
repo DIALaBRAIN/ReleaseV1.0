@@ -1,0 +1,2 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="ResourceShort.ascx.cs" Inherits="IntelArcade.WebApp.SearchControls.ResourceShort" %>
+<br /><br />[Resource Short - Not Implemented]<br /><br />

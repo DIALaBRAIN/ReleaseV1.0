@@ -1,0 +1,142 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterBase.master.cs" EnableViewState="true"
+    Inherits="IntelArcade.WebApp.MasterBase" %>
+
+<%@ Register Src="~/UserControls/MainMenu.ascx" TagName="MainMenu" TagPrefix="uc1" %>
+<%@ Register Src="UserControls/AuthStatus.ascx" TagName="AuthStatus" TagPrefix="uc1" %>
+<%@ Register Src="UserControls/QuickSearch.ascx" TagName="QuickSearch" TagPrefix="uc1" %>
+<%@ Register Src="UserControls/MessageStatus.ascx" TagName="MessageStatus" TagPrefix="uc1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">  
+
+    
+    <link id="Link1" runat="server" rel="shortcut icon" href="~/images/favicon.ico" type="image/x-icon" />
+    <link id="Link2" runat="server" rel="icon" href="~/images/favicon.ico" type="image/ico" />
+    <title runat="server"  id="PageTitleElement"></title>
+    <link rel="stylesheet" href="Styles/Default-100.css" type="text/css" />
+    <link rel="stylesheet" href="Styles/Controls-100.css" type="text/css" />
+    <link rel="stylesheet" href="Styles/Tooltip.css" type="text/css" />
+    <link rel="stylesheet" href="Styles/tabs.css" type="text/css" />
+    <meta http-equiv="content-type" content="text/html;charset=iso-8859-1" />
+
+        <meta runat="server" id="og_title" property="og:title" content="DIALaBRAIN - Illuminate Others" />
+        <meta runat="server" id="og_url" property="og:url" content="http://dialabrain.com/" />
+        <meta runat="server" id="og_image" property="og:image" content="http://dialabrain.com/images/ShareThumbnail.jpg" />
+        <meta runat="server" id="og_description" property="og:description" content="DIALaBRAIN is a professional marketplace for buying and selling expertise based Services and related Products. [...]" />
+
+
+
+    <script type="text/javascript" src="/Client/Tooltip.js"></script>
+    <script language="javascript" type="text/javascript" src="/Client/jquery.tools.min.js"></script>    
+    <script src="/Client/css_browser_selector.js" type="text/javascript"></script>
+    <asp:ContentPlaceHolder ID="ContentHead" runat="server" />
+    <style type="text/css">
+        .tickerControl a
+        {
+            color: White !important;
+            font-size: 12px !important;
+            line-height: 1px !important;
+        }
+    </style>
+</head>
+<body>
+    <script type="text/javascript">
+        function _iac_ShowNotification(arg) {
+            var notification = $find("<%=IANotification1.ClientID %>");
+            notification.set_text(arg);
+            notification.show();
+        }
+
+    </script>
+    <form id="form1" runat="server">
+    <iac:IAScriptManager ID="ScriptManager" runat="server" EnablePartialRendering="true"
+        EnableScriptGlobalization="true" EnableScriptLocalization="true">
+        <Scripts>
+            <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Core.js" />
+            <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQuery.js" />
+            <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQueryInclude.js" />
+            <asp:ScriptReference Path="~/Client/jwplayer.js" />
+        </Scripts>
+    </iac:IAScriptManager>
+    <iac:IANotification runat="server" ID="IANotification1" Title="Sample title" Width="300"
+        Height="100" Animation="Fade" EnableRoundedCorners="true" VisibleTitlebar="false"
+        Skin="Office2010Silver" Position="Center">
+    </iac:IANotification>
+    <div class="header" style="height: 46px; width: 100%; position:absolute;z-index:-99;"></div>
+    <div class="content">
+        <div class="header" style="height: 46px; width: 100%;">
+            <div class="topBanner" style="width: auto; height: 44px;">
+               <div style="position:relative; margin-left:-5px; margin-right:10px; top: 6px; left: 15px;" >
+                    <tel:RadMenu ID="RadMenu1" runat="server" EnableRoundedCorners="false" EnableShadows="false" Skin="">
+                    <Items>
+                    <tel:RadMenuItem runat="server" Value="" NavigateUrl="Default.aspx" ImageUrl="~/images/ico/Home.png" HoveredImageUrl="~/images/ico/Home-ro.png" ClickedImageUrl="~/images/ico/Home-ro.png" SelectedImageUrl="~/images/ico/Home-ro.png" >
+                    </tel:RadMenuItem>
+                    </Items>
+                    </tel:RadMenu>
+                    
+                </div>  
+            
+                <div class="companyName" style="float: left; height: auto; margin-right: 20px; margin-left:3px;">
+                    <a href="/" title="DIALaBRAIN - illuminate others!">DIAL<span style="color: White;
+                        font-size: 20px;">a</span><span class="highlight">BRAIN</span></a></div>
+                <div class="mainMenuElement" style="width: auto; text-align: right; padding-top: 7px;">
+                    <uc1:MainMenu ID="MainMenu1" runat="server" />
+                </div>
+                <div style="float: left;">
+                        <uc1:MessageStatus ID="MessageStatus" runat="server" />
+                    </div>
+                <div class="searchElement" style="float: left; padding-top: 0px; padding-left: 100px;">
+                    <uc1:QuickSearch ID="SearchControl" runat="server" />
+                </div>
+                <div style="width: auto; float: left; padding-top: 0px; padding-left: 20px;">
+                    <tel:RadSocialShare ID="SocialShare" runat="server" CssClass="IAWrapper" UrlToShare="~/Default.aspx">
+                        <MainButtons>
+                            <tel:RadSocialButton SocialNetType="ShareOnFacebook" />
+                            <telerik:RadSocialButton SocialNetType="LinkedIn" />
+                            <tel:RadSocialButton SocialNetType="ShareOnTwitter" />
+                            <tel:RadCompactButton />
+                        </MainButtons>
+                        <CompactButtons>
+                            <tel:RadSocialButton SocialNetType="Blogger" />
+                            <tel:RadSocialButton SocialNetType="Delicious" />
+                            <tel:RadSocialButton SocialNetType="GoogleBookmarks" />
+                        </CompactButtons>
+                    </tel:RadSocialShare>
+                </div>
+                <div style="float: right;">
+                    
+                    <div style="float: right; width: auto;">
+                        <div class="authElement" style="width: auto; text-align: right; padding-right: 10px;">
+                            <uc1:AuthStatus ID="AuthStatusControl" runat="server" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="width: 100%; padding: 0px 0px 0px 0px;">
+            <asp:ContentPlaceHolder ID="ContentBody" runat="server" />
+        </div>
+        <div style="clear: both; width: 100%; margin-bottom: 30px;">
+            &nbsp;</div>
+        <div class="footer" style="width: 100%;">
+            <p>
+                <a href="../ContactUsGuide.aspx">Contact Us</a> | <a href="../Default.aspx#Guidance">
+                    Guidance</a> | <a href="../ProviderTermsGuide.aspx">Terms for Providers</a>
+                | <a href="../SeekerTermsGuide.aspx">Terms for Seekers</a> | <a href="../PrivacyGuide.aspx">
+                    Privacy Policy</a><br />
+                &copy; Copyright 2013 <b>DIALa<span class="highlight2">BRAIN</span></b> - All Rights
+                Reserved</p>
+        </div>
+    </div>
+    <asp:HiddenField ID="HiddenFieldtitle" runat="server" Value="-1" />
+ 
+    </form>
+
+    <link rel="stylesheet" type="text/css" media="screen" href="Styles/browser-detection.css" />
+        	<script type="text/javascript" src="Client/browser-detection.js"></script>
+            	<script type="text/javascript">     
+
+       </script>
+</body>
+</html>

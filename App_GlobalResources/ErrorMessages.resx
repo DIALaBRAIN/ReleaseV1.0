@@ -1,0 +1,354 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccessDenied" xml:space="preserve">
+    <value>Access (typically read or write) to an application resource is denied.</value>
+  </data>
+  <data name="AccountAlreadyVerified" xml:space="preserve">
+    <value>Oops - Something is amiss! Please contact us quoting the error message number : - 205</value>
+  </data>
+  <data name="AccountLockedOut" xml:space="preserve">
+    <value>Your account is locked, please contact us.</value>
+  </data>
+  <data name="AccountNotVerified" xml:space="preserve">
+    <value>Please check your email and follow the instructions.</value>
+  </data>
+  <data name="AccountVerificationError" xml:space="preserve">
+    <value>Oops - Something is amiss! Please contact us quoting the error message number : - 204</value>
+  </data>
+  <data name="AppointmentExpired" xml:space="preserve">
+    <value>Sorry this appointment has already ended.</value>
+  </data>
+  <data name="AssociatedAppointmentMissing" xml:space="preserve">
+    <value>Oops - Something is amiss! Please contact us quoting the error message number : - 520</value>
+  </data>
+  <data name="AttendeesIncompatible" xml:space="preserve">
+    <value>One or more attendees associated with a scheduled event are incompatible (typically as the result of an attendee attempting to schedule a meeting with themself).</value>
+  </data>
+  <data name="CreateMeetingFailed" xml:space="preserve">
+    <value>Oops - Something is amiss! Please contact us quoting the error message number : - 2001</value>
+  </data>
+  <data name="CreateUserError" xml:space="preserve">
+    <value>Create user error.</value>
+  </data>
+  <data name="CryptoKeyTypeNotSupported" xml:space="preserve">
+    <value>Oops - Something is amiss! Please contact us quoting the error message number : - 410</value>
+  </data>
+  <data name="CurrencyConflict" xml:space="preserve">
+    <value>Oops - Something is amiss! Please contact us quoting the error message number : - 621</value>
+  </data>
+  <data name="CurrencyNotSupported" xml:space="preserve">
+    <value>Oops - Something is amiss! Please contact us quoting the error message number : - 620</value>
+  </data>
+  <data name="DataAccessError" xml:space="preserve">
+    <value>An unspecified data access error has occurred.</value>
+  </data>
+  <data name="DataConcurrencyError" xml:space="preserve">
+    <value>A concurrency error occurred during an attempt to modify data.</value>
+  </data>
+  <data name="DeleteMeetingFailed" xml:space="preserve">
+    <value>Oops - Something is amiss! Please contact us quoting the error message number : - 2002</value>
+  </data>
+  <data name="Disconnected" xml:space="preserve">
+    <value>Sorry you have been disconnected.</value>
+  </data>
+  <data name="Exists" xml:space="preserve">
+    <value>Sorry you are only allowed one service per service category.</value>
+  </data>
+  <data name="ExternalServiceMessageVerificationFailed" xml:space="preserve">
+    <value>A message received from an external service failed a verification process.</value>
+  </data>
+  <data name="FeedbackAlreadySubmitted" xml:space="preserve">
+    <value>Thank you, but you have already given feedback.</value>
+  </data>
+  <data name="FileUploadError" xml:space="preserve">
+    <value>Sorry an error occurred while uploading your file. Please try again.</value>
+  </data>
+  <data name="FXTariffFactorNotResolved" xml:space="preserve">
+    <value>Oops - Something is amiss! Please contact us quoting the error message number : - 701</value>
+  </data>
+  <data name="InsufficientFunds" xml:space="preserve">
+    <value>Sorry you do not have enough funds.</value>
+  </data>
+  <data name="InvalidDataOperation" xml:space="preserve">
+    <value>The requested operation is invalid given the current state of the model.</value>
+  </data>
+  <data name="InvalidSmtpConfiguration" xml:space="preserve">
+    <value>Oops - Something is amiss! Please contact us quoting the error message number : - 502</value>
+  </data>
+  <data name="InvalidState" xml:space="preserve">
+    <value>The state of the target object or data entity is invalid for the attempted operation.</value>
+  </data>
+  <data name="InvalidSystemIdentifierFormat" xml:space="preserve">
+    <value>Oops - Something is amiss! Please contact us quoting the error message number : - 3</value>
+  </data>
+  <data name="InvalidTransactionState" xml:space="preserve">
+    <value>Oops - Something is amiss! Please contact us quoting the error message number : - 611</value>
+  </data>
+  <data name="InvalidUserNameOrPassword" xml:space="preserve">
+    <value>Please check your username and password.</value>
+  </data>
+  <data name="MeetingExpired" xml:space="preserve">
+    <value>Oops - Something is amiss! Please contact us quoting the error message number : - 2005</value>
+  </data>
+  <data name="MeetingIDNotResolved" xml:space="preserve">
+    <value>This error may be returned in the event that the remote meeting service returns a response indicating that the remote meeting has been created, but the local system is unable to resolve the remote meeting ID.</value>
+  </data>
+  <data name="MeetingServiceError" xml:space="preserve">
+    <value>Oops - Something is amiss! Please contact us quoting the error message number : - 2000</value>
+  </data>
+  <data name="MeetingUnavailable" xml:space="preserve">
+    <value>Oops - Something is amiss! Please contact us quoting the error message number : - 2004</value>
+  </data>
+  <data name="MeetingUrlInvalid" xml:space="preserve">
+    <value>Oops - Something is amiss! Please contact us quoting the error message number : - 2006</value>
+  </data>
+  <data name="NotAvailable" xml:space="preserve">
+    <value>Oops - Something is amiss! Please contact us quoting the error message number : - 510</value>
+  </data>
+  <data name="NotExists" xml:space="preserve">
+    <value>The requested object does not exist on the server.</value>
+  </data>
+  <data name="NotificationFailure" xml:space="preserve">
+    <value>Oops - Something is amiss! Please contact us quoting the error message number : - 501</value>
+  </data>
+  <data name="NotSupported" xml:space="preserve">
+    <value>Oops - Something is amiss! Please contact us quoting the error message number : - 500</value>
+  </data>
+  <data name="PasswordFailedComplexityRules" xml:space="preserve">
+    <value>The password is not in an accepted format. Please see note below.</value>
+  </data>
+  <data name="PayAsYouGoRateNotResolved" xml:space="preserve">
+    <value>Oops - Something is amiss! Please contact us quoting the error message number : - 702</value>
+  </data>
+  <data name="PermissionDenied" xml:space="preserve">
+    <value>Permission to perform an application operation is denied.</value>
+  </data>
+  <data name="ProviderNotResolved" xml:space="preserve">
+    <value>Either no appointment provider is defined, or none can be resolved.</value>
+  </data>
+  <data name="QuoteExpired" xml:space="preserve">
+    <value>Oops - Something is amiss! Please contact us quoting the error message number : - 630</value>
+  </data>
+  <data name="SalesTaxRateTypeDependency" xml:space="preserve">
+    <value>An attempt has been made to drop a SalesTaxRateType that is referenced by a dependent entity.</value>
+  </data>
+  <data name="SalesTaxRateTypeNotExists" xml:space="preserve">
+    <value>An attempt has been made to reference SalesTaxRateType that does not exist.</value>
+  </data>
+  <data name="ServiceProfileNotCreatedExist" xml:space="preserve">
+    <value>Category exists.</value>
+  </data>
+  <data name="SignInError" xml:space="preserve">
+    <value>Unable to sign-in please contact us.</value>
+  </data>
+  <data name="String1SalesTaxRulesNotDefined" xml:space="preserve">
+    <value>No Sales Tax Rules covering the transaction date have been defined.</value>
+  </data>
+  <data name="SystemError" xml:space="preserve">
+    <value>Undefined.Oops - Something is amiss! Please contact us quoting the error message number : - 2</value>
+  </data>
+  <data name="SystemPropertyNotResolved" xml:space="preserve">
+    <value>Oops - Something is amiss! Please contact us quoting the error message number : - 700</value>
+  </data>
+  <data name="SystemTimeRateNotResolved" xml:space="preserve">
+    <value>Oops - Something is amiss! Please contact us quoting the error message number : - 703</value>
+  </data>
+  <data name="SystemTimeUnitNotSupported" xml:space="preserve">
+    <value>Oops - Something is amiss! Please contact us quoting the error message number : - 704</value>
+  </data>
+  <data name="TimedOut" xml:space="preserve">
+    <value>Sorry you have be logged out due to inactivity.</value>
+  </data>
+  <data name="TransactionalAccountNotDefined" xml:space="preserve">
+    <value>Oops - Something is amiss! Please contact us quoting the error message number : - 600</value>
+  </data>
+  <data name="TransactionAlreadyCommitted" xml:space="preserve">
+    <value>Oops - Something is amiss! Please contact us quoting the error message number : - 612</value>
+  </data>
+  <data name="TransactionNotResolved" xml:space="preserve">
+    <value>Oops - Something is amiss! Please contact us quoting the error message number : - 610</value>
+  </data>
+  <data name="TransactionOutOfBalance" xml:space="preserve">
+    <value>Oops - Something is amiss! Please contact us quoting the error message number : - 603</value>
+  </data>
+  <data name="Undefined" xml:space="preserve">
+    <value>Undefined.Oops - Something is amiss! Please contact us quoting the error message number : - 0</value>
+  </data>
+  <data name="UploadSizeLimitExceeded" xml:space="preserve">
+    <value>Sorry the file you are uploading is too big. The limit is &lt;db&gt; Mb.</value>
+  </data>
+  <data name="UserAssociatedWithCompany" xml:space="preserve">
+    <value>Oops - Something is amiss! Please contact us quoting the error message number : - 523</value>
+  </data>
+  <data name="UserExistsError" xml:space="preserve">
+    <value>The email address entered is already registered.</value>
+  </data>
+  <data name="UserNameFailedFormatRules" xml:space="preserve">
+    <value>Please check your email address, the format is incorrect.</value>
+  </data>
+  <data name="VerificationTokenExpired" xml:space="preserve">
+    <value>Oops - Something is amiss! Please contact us quoting the error message number : - 417</value>
+  </data>
+  <data name="VerificationTokenInvalid" xml:space="preserve">
+    <value>Oops - Something is amiss! Please contact us quoting the error message number : - 415</value>
+  </data>
+  <data name="VerificationTokenTypeMismatch" xml:space="preserve">
+    <value>Oops - Something is amiss! Please contact us quoting the error message number : - 416</value>
+  </data>
+  <data name="LinkedInEmtyData" xml:space="preserve">
+    <value>No data found</value>
+  </data>
+  <data name="NoNewRecordFound" xml:space="preserve">
+    <value>No new record found.</value>
+  </data>
+  <data name="NoRecordFound" xml:space="preserve">
+    <value>No record found.</value>
+  </data>
+  <data name="InvalidPassword" xml:space="preserve">
+    <value>Invalid Password</value>
+  </data>
+  <data name="MoneyDownloadVerificationTokenTypeMismatch" xml:space="preserve">
+    <value>Your withdrawal request could not be completed.Token is invalid or expired.</value>
+  </data>
+  <data name="ResetPasswordTokenExpired" xml:space="preserve">
+    <value>Reset Password Token Expired.</value>
+  </data>
+  <data name="ResetPasswordTokenInvalid" xml:space="preserve">
+    <value>Please Retry Reset Password Verification Token Invalid.</value>
+  </data>
+  <data name="InternetLinkExists" xml:space="preserve">
+    <value>Internet Link Exists.</value>
+  </data>
+  <data name="MeetingAlreadyOpen" xml:space="preserve">
+    <value>Meeting Already Open. If you accidentally closed your session, Please try again in 30 seconds.</value>
+  </data>
+  <data name="ResetPasswordUserNotExists" xml:space="preserve">
+    <value>The  email entered  is not registered on our database.</value>
+  </data>
+  <data name="TaxRateRemoveDependencyErrorTitle" xml:space="preserve">
+    <value>You may not delete this rate as it is already associated with one or more services.  </value>
+  </data>
+  <data name="TaxRateRemoveDependencyErrorTMessege" xml:space="preserve">
+    <value>If you need to remove the rate please either delete the relevant service or associate a different tax rate with the service/s first.</value>
+  </data>
+  <data name="AppointmentCancelled" xml:space="preserve">
+    <value>The other party cancelled this meeting just a moment ago . They will be registered as the one that cancelled this meeting.</value>
+  </data>
+</root>

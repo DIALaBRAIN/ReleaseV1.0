@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<News>
+  <NewsItem>
+    <Ticker>
+      <![CDATA["This is a test site. We are currently doing a BETA test. Do check back we will be going live soon."]]>
+    </Ticker>
+    <Link Text="Inform a Friend" Url="#" />
+    <Image><![CDATA[stopwatch.jpg]]></Image>
+  </NewsItem>
+  <NewsItem>
+    <Ticker>
+      <![CDATA["This is a test site. We are currently doing a BETA test. Do check back we will be going live soon."]]>
+    </Ticker>
+    <Link Text="Inform a Friend" Url="#" />
+    <Image><![CDATA[frenchFlag.jpg]]></Image>
+  </NewsItem>
+  <NewsItem>
+    <Ticker>
+      <![CDATA["This is a test site. We are currently doing a BETA test. Do check back we will be going live soon."]]>
+    </Ticker>
+    <Link Text="Inform a Friend" Url="#" />
+    <Image><![CDATA[taxAdvice.jpg]]></Image>
+  </NewsItem>
+  <NewsItem>
+    <Ticker>
+      <![CDATA["This is a test site. We are currently doing a BETA test. Do check back we will be going live soon."]]>
+    </Ticker>
+    <Link Text="Inform a Friend" Url="#" />
+    <Image><![CDATA[paperwork.jpg]]></Image>
+  </NewsItem>
+  <NewsItem>
+    <Ticker>
+      <![CDATA["This is a test site. We are currently doing a BETA test. Do check back we will be going live soon."]]>
+    </Ticker>
+    <Link Text="Inform a Friend" Url="#" />
+    <Image><![CDATA[passport.jpg]]></Image>
+  </NewsItem>
+</News>
+
+
+
+
+

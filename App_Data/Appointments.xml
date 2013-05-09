@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Appointments>
+  <NextID>10</NextID>
+  <Appointment>
+    <ID>9</ID>
+    <Subject>Available</Subject>
+    <Description>
+    </Description>
+    <Start>2011-06-14T03:00Z</Start>
+    <End>2011-06-14T04:00Z</End>
+    <RecurrenceRule><![CDATA[DTSTART:20110614T030000Z
+DTEND:20110614T040000Z
+RRULE:FREQ=WEEKLY;INTERVAL=1;BYDAY=MO,TU,WE,TH,FR
+EXDATE:20110616T030000Z
+]]></RecurrenceRule>
+    <Attribute Key="ItemType" Value="1" />
+  </Appointment>
+</Appointments>

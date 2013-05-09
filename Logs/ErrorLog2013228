@@ -1,0 +1,9 @@
+28/02/2013 00:51:46 ==> C:\inetpub\Dialabrain\Logs/ErrorLog201322828/02/2013 00:51:46 ==> This is an invalid webresource request.   at System.Web.Handlers.AssemblyResourceLoader.System.Web.IHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)System.Web
+28/02/2013 03:12:19 ==> C:\inetpub\Dialabrain\Logs/ErrorLog201322828/02/2013 03:12:19 ==> This is an invalid webresource request.   at System.Web.Handlers.AssemblyResourceLoader.System.Web.IHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)System.Web
+28/02/2013 10:46:41 ==> C:\inetpub\Dialabrain\Logs/ErrorLog201322828/02/2013 10:46:41 ==> This is an invalid webresource request.   at System.Web.Handlers.AssemblyResourceLoader.System.Web.IHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)System.Web

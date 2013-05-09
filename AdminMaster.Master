@@ -1,0 +1,73 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AdminMaster.master.cs"
+    Inherits="IntelArcade.WebApp.Admin.AdminMaster" %>
+
+<%@ Register Src="~/UserControls/AdminMainMenu.ascx" TagName="MainMenu" TagPrefix="uc1" %>
+<%@ Register Src="~/UserControls/Ticker.ascx" TagName="Ticker" TagPrefix="uc1" %>
+<%@ Register Src="~/UserControls/AuthStatus.ascx" TagName="AuthStatus" TagPrefix="uc1" %>
+<%@ Register Src="~/UserControls/MessageStatus.ascx" TagName="MessageStatus" TagPrefix="uc1" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title runat="server" id="PageTitleElement"></title>
+    <link rel="stylesheet" href="~/Styles/Default-100.css" type="text/css" />
+    <link rel="stylesheet" href="~/Styles/Controls-100.css" type="text/css" />
+    <meta http-equiv="content-type" content="text/html;charset=iso-8859-1" />
+    <asp:ContentPlaceHolder ID="ContentHead" runat="server" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <iac:IAScriptManager ID="ScriptManager" runat="server" EnablePartialRendering="true"
+        EnableScriptGlobalization="true" EnableScriptLocalization="true">
+        <Scripts>
+            <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Core.js" />
+            <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQuery.js" />
+            <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQueryInclude.js" />
+        </Scripts>
+    </iac:IAScriptManager>
+    <div>
+        <div class="content">
+            <div class="header" style="height: 169px; width: 100%; margin-bottom: 10px;">
+                <div class="topBanner" style="width: auto; height: 70px;">
+                    <div class="companyName" style="float: left; height: auto;">
+                        <a href="/" title="DialaBrain - illuminate others!">Dial<span style="color: Black">a</span><span
+                            class="highlight">Brain</span></a><sup> illuminate others!</sup></div>
+                    <div style="float: right; width: auto;">
+                        <div class="authElement" style="width: auto; text-align: right; padding-right: 10px;">
+                            <uc1:AuthStatus ID="AuthStatusControl" runat="server" />
+                        </div>
+                        <div class="mainMenuElement" style="margin-top: 26px; width: auto; text-align: right;
+                            padding-right: 0px;">
+                            <uc1:MainMenu ID="MainMenu1" runat="server" />
+                        </div>
+                    </div>
+                </div>
+                <div class="tickerBar" style="width: auto; height: 60px; clear: both;">
+                    <uc1:Ticker runat="server" ID="Ticker" />
+                </div>
+                <div class="searchBar" style="width: auto; height: 35px; padding-left: 10px; padding-right: 10px;">
+                    <!--<div style="float:left;height:33px;border:1px dotted yellow;background:url(/images/msgSmall.gif) no-repeat center left;"><a style="margin-left:40px;margin-top:12px;" href="#">Click here to read <span class="highlight">3</span> new messages</a></div>-->
+                    <div style="float: right;">
+                        <uc1:MessageStatus ID="MessageStatus" runat="server" />
+                    </div>
+                </div>
+            </div>
+                    <div runat="server" id="ContainerStatus" style="width:100%; padding-top:5px;" />
+            <div style="width: 100%; padding: 0px 0px 0px 0px;">
+                <asp:ContentPlaceHolder ID="ContentBody" runat="server" />
+            </div>
+            <div style="clear: both; width: 100%; margin-bottom: 30px;">
+                &nbsp;</div>
+            <div class="footer" style="width: 100%;">
+                <p>
+                    <a href="../ContactUsGuide.aspx">Contact Us</a> | <a href="../Default.aspx#Guidance">
+                        Guidance</a> | <a href="../ProviderTermsGuide.aspx">Terms for Providers</a>
+                    | <a href="../SeekerTermsGuide.aspx">Terms for Seekers</a> | <a href="../PrivacyGuide.aspx">
+                        Privacy Policy</a><br />
+                    &copy; Copyright 2013 <b>DIALa<span class="highlight2">BRAIN</span></b> - All Rights
+                    Reserved</p>
+            </div>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

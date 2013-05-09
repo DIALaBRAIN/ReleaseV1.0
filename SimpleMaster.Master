@@ -1,0 +1,53 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SimpleMaster.master.cs"
+    Inherits="IntelArcade.WebApp.SimpleMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title runat="server" id="PageTitleElement"></title>
+    <link rel="stylesheet" href="Styles/Default-100.css" type="text/css" />
+    <link rel="stylesheet" href="Styles/Controls-100.css" type="text/css" />
+    <link rel="stylesheet" href="Styles/Tooltip.css" type="text/css" />
+    <link id="Link1" runat="server" rel="shortcut icon" href="~/images/favicon.ico" type="image/x-icon" />
+    <link id="Link2" runat="server" rel="icon" href="~/images/favicon.ico" type="image/ico" />
+    <meta http-equiv="content-type" content="text/html;charset=iso-8859-1" />
+    <asp:ContentPlaceHolder ID="ContentHead" runat="server" />
+</head>
+<body>
+    <script type="text/javascript">
+        function _iac_ShowNotification(arg) {
+            var notification = $find("<%=IANotification1.ClientID %>");
+            notification.set_text(arg);
+            notification.show();
+        }
+
+    </script>
+    <form id="form1" runat="server">
+    <iac:IAScriptManager ID="ScriptManager" runat="server" EnablePartialRendering="true"
+        EnableScriptGlobalization="true" EnableScriptLocalization="true">
+        <Scripts>
+            <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Core.js" />
+            <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQuery.js" />
+            <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQueryInclude.js" />
+        </Scripts>
+    </iac:IAScriptManager>
+    <iac:IANotification runat="server" ID="IANotification1" Title="Sample title" Width="300"
+        Height="100" Animation="Fade" EnableRoundedCorners="true" VisibleTitlebar="false"
+        Skin="Office2010Silver" Position="Center">
+    </iac:IANotification>
+    <div class="content">
+        <div class="header" style="height: 40px; width: 100%;">
+            <div class="companyName" style="padding-top: 5px; float: left; height: auto;">
+                <a class="rmLink rmImageOnly rmRootLink" href="../Default.aspx"></a><a href="/" title="DIALaBRAIN - illuminate others!">
+                    DIAL<span style="color: White; font-size: 20px;">a</span><span class="highlight">BRAIN</span></a><sup> illuminate
+                       others!</sup></div>
+        </div>
+        <div runat="server" id="ContainerStatus" style="width: 100%; padding-top: 5px; padding-left: 4px;
+            padding-right: 4px" />
+        <div style="width: 100%; padding: 0px 0px 0px 0px;">
+            <asp:ContentPlaceHolder ID="ContentBody" runat="server" />
+        </div>
+    </div>
+    </form>
+</body>
+</html>

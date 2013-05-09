@@ -1,0 +1,614 @@
+﻿/* RadComboBox item separator class */
+.rcbSeparator
+{
+	color: #3f3f3f !important;
+	font-weight:bold !important;
+	background-color:White !important;
+}
+
+/* Main Menu */
+.mainMenu
+{
+    z-index:6000 !important; 
+}
+.rmRootGroup .mainMenu
+{
+	color: White !important;
+	font-size: 14px;
+	border-right: 1px solid white;
+	overflow:hidden !important;
+    border-right: none;
+    	
+}
+
+.rmLink 
+{
+	cursor:pointer !important;
+}
+.rmRootGroup .rmLast .mainMenu 
+{
+    padding-right:20px;
+}
+
+.rmGroup .rmItem .mainMenu
+{
+	font: .8em Arial, "Trebuchet MS", Tahoma, sans-serif; 
+	text-align: left;
+	border-left: 1px solid #3F3F3F;
+	border-right: 1px solid #3F3F3F;
+	color: black !important;
+	background-color: white !important;
+	padding-bottom:5px;
+	padding-top:5px;
+	
+	
+	
+}
+
+.menuTitle
+{
+}
+.rmLink.menuTitle
+{
+	cursor:default !important;
+}
+
+.rmGroup .rmItem .menuTitle
+{
+	font: .8em Arial, "Trebuchet MS", Tahoma, sans-serif; 
+	font-size:18px;
+	text-align: left;
+	border-left: 1px solid #3F3F3F;
+	border-right: 1px solid #3F3F3F;
+	color: black !important;
+	background-color: white !important;
+	padding-bottom:5px;
+	padding-top:5px;
+	
+	
+	
+}
+.rmRootGroup .menuTitle
+{
+	color: White !important;
+	font-size: 14px;
+	border-right: 1px solid white;
+	overflow:hidden !important;
+	
+    	
+}
+
+.rmGroup .rmItem .menuTitle:hover
+{
+    text-decoration:none;	
+}
+
+.rmGroup .rmFirst .menuTitle
+{
+	border-top: 1px solid #3F3F3F;
+	padding-top: 5px !important;
+}
+.rmGroup .rmLast .menuTitle
+{
+	border-bottom: 1px solid #3F3F3F;
+	padding-bottom: 5px !important;
+}
+.rmGroup .rmItem .mainMenu:hover
+{
+	font: .8em Arial, "Trebuchet MS", Tahoma, sans-serif; 
+	text-align: left;
+	color: white !important;
+	background-color: #336699 !important;
+	border:none;
+	-moz-border-radius-topleft: 2px;
+	-moz-border-radius-topright:2px;
+    -moz-border-radius-bottomleft:2px;
+    -moz-border-radius-bottomright:2px;
+    -webkit-border-top-left-radius:2px;
+    -webkit-border-top-right-radius:2px;
+    -webkit-border-bottom-left-radius:2px;
+    -webkit-border-bottom-right-radius:2px;
+    border-top-left-radius:2px;
+    border-top-right-radius:2px;
+    border-bottom-left-radius:2px;
+    border-bottom-right-radius:2px;
+    padding-bottom:5px;
+	padding-top:5px;
+	text-decoration:none;
+	
+}
+
+
+.rmGroup .rmFirst .mainMenu
+{
+	border-top: 1px solid #3F3F3F;
+	padding-top: 5px !important;
+}
+.rmGroup .rmLast .mainMenu
+{
+	border-bottom: 1px solid #3F3F3F;
+	padding-bottom: 5px !important;
+}
+
+.rmSeparator
+{
+	margin:0px;
+	background-color: White  !important;
+	border-right: 1px solid #3F3F3F !important;	
+	border-left: 1px solid #3F3F3F !important;
+	border-bottom: none !important;
+	border-top: 1px solid #cfcfcf !important;
+	height:1px;
+}
+
+ 
+/* Scheduler */
+.defaultScheduler h2
+{
+	clear: inherit;
+	background: inherit;
+	color: inherit;
+	padding: inherit;
+	font: inherit;
+	margin: inherit;	
+	width:inherit;
+}
+
+.providerSetupNavigatorCurrentStep
+{
+   padding:5px;
+   background-color:#336699;
+   padding-right:2px;
+   width:100%;
+}
+.providerSetupNavigatorCurrentStep a
+{
+   color:White;
+   font-weight:bold;
+}
+
+.verticalRuler
+{
+    border-left:1px solid #cfcfcf;
+    padding-left:20px;
+}
+
+.ProviderSetupLeftNavigator .tick
+{
+    padding-right:5px;
+    width:8px;
+}
+
+/*.RadScheduler .rsAptOut
+ {
+   width:10px !important;
+ }*/
+ 
+ .ProfileRotatorCard
+ {
+    clear: both; 
+    float: left; 
+    width: 340px; 
+    margin-top: 0px; 
+    height: 155px;               
+    background-color: #FAFAFA; 
+    -moz-border-radius: 6px;             
+    -webkit-border-radius: 6px; 
+    border-radius: 6px; 
+    background-image: url('/images/card_strip_03.png');               
+    background-position: center;
+    -moz-box-shadow: 0 0 5px #888;
+    -webkit-box-shadow: 0 0 5px#888;
+    box-shadow: 0 0 5px #888;
+    margin-top:6px;
+    margin-bottom:6px;
+    margin-left:4px;
+    margin-right:4px;
+
+ }
+  .ProfileRotatorBlankCard
+ {
+    clear: both; 
+    float: left; 
+    width: 340px; 
+    margin-top: 0px; 
+    height: 156px;               
+    background-color: #FAFAFA; 
+    -moz-border-radius: 6px;             
+    -webkit-border-radius: 6px; 
+    border-radius: 6px;              
+    background-position: center;
+    margin-top:6px;
+    margin-bottom:6px;
+    margin-left:4px;
+    margin-right:4px;
+ }
+  .ProfileRotatorSelectedCard
+ {
+    clear: both; 
+    float: left; 
+    width: 340px; 
+    margin-top: 0px; 
+    height: 155px;               
+    background-color: #FAFAFA; 
+    -moz-border-radius: 6px;             
+    -webkit-border-radius: 6px; 
+    border-radius: 6px;         
+    background-position: center;
+    -moz-box-shadow: 0 0 5px #f47721;
+    -webkit-box-shadow: 0 0 5px#f47721;
+    box-shadow: 0 0 5px #f47721;
+    margin-top:6px;
+    margin-bottom:6px;
+    margin-left:4px;
+    margin-right:4px; 
+    background-image: url('/images/card_selected.png');    
+ }
+ 
+ .NotifyMeCheckboxList label
+ {
+     clear:both;
+     margin-left:10px;
+     font-weight:normal;
+ }
+ .NotifyMeCheckboxList input
+ {
+     cursor:pointer;
+ }
+ 
+  .NotifyMeCheckboxList span
+ {
+     padding:20px;
+     display: block;
+ }
+ 
+  .NotifyMeCheckboxList input:checked + span 
+ {
+
+ }
+ 
+ 
+
+/* Serarch Type Menu */
+
+.RadMenu_SearchTypeMenu
+{
+
+}
+.RadMenu_SearchTypeMenu .rmRootGroup
+{
+	color: White !important;
+	font-size: 14px;
+	border-right: 1px solid white;
+    border-right: none;
+    	
+}
+.RadMenu_SearchTypeMenu .rmGroup .rmItem
+{
+	font: .8em Arial, "Trebuchet MS", Tahoma, sans-serif; 
+	text-align: left;
+	border-left: 1px solid #3F3F3F;
+	border-right: 1px solid #3F3F3F;
+	color: black !important;
+	background-color: white !important;
+	padding-bottom:5px;
+	padding-top:5px;
+	height:20px;
+}
+
+.RadMenu_SearchTypeMenu .rmRootGroup .rmLast
+{
+    padding-right:20px;
+}
+
+.RadMenu_SearchTypeMenu .rmGroup .rmLast
+{
+	border-bottom: 1px solid #3F3F3F;
+}
+
+.RadMenu_SearchTypeMenu .rmGroup .rmFirst
+{
+	border-top: 1px solid #3F3F3F;
+}
+
+.RadMenu_SearchTypeMenu .rmText
+{
+    font: .8em Arial, "Trebuchet MS", Tahoma, sans-serif; 
+	text-align: left;
+	color: black !important;
+	font-size:13px;
+}
+.RadMenu_SearchTypeMenu a.rmLink:hover,
+.RadMenu_SearchTypeMenu a.rmFocused
+{
+    font: .8em Arial, "Trebuchet MS", Tahoma, sans-serif; 
+	text-align: left;
+	color: white !important;
+	background-color: #336699 !important;
+	border:none;
+	height:20px;
+	text-decoration:none;
+}
+.RadMenu_SearchTypeMenu a.rmLink:hover .rmText
+{
+   color: white !important;
+}
+.RadMenu_SearchTypeMenu a.rmSelected
+{
+	background-color: #cfcfcf !important;
+	height:20px
+}
+
+/* Auth Status Menu */
+
+.rmItem .authStatusMenu
+{
+    font: .8em Arial, "Trebuchet MS", Tahoma, sans-serif; 
+	text-align: left;
+	border: 1px solid #3F3F3F;
+	color: black !important;
+	background-color: white;
+	padding-bottom:5px;
+	padding-top:5px;
+	height:20px;
+}
+
+.loginStatus .rmItem .authStatusMenu
+{
+    font: .8em Arial, "Trebuchet MS", Tahoma, sans-serif;
+    font-size:small;
+    text-decoration:none;
+}
+.authStatusMenu:hover
+{
+    font: .9em Arial, "Trebuchet MS", Tahoma, sans-serif;
+    font-size:small;
+    text-decoration:none;background-color: #000;
+}
+/* End Auth Status Menu */
+
+
+
+
+
+.RadTabStrip_DB
+{
+    
+}
+.RadTabStrip_DB .rtsUL {
+	background-color: #FAFAFA;
+	border-radius:7px 7px 0 0; 
+    -moz-border-radius:5px; 
+    -webkit-border-radius: 5px;
+    
+}
+.RadTabStrip_DB .rtsLevel1 .rtsUL 
+{
+		background-color: #FAFAFA;/*#25a0da;*/
+		
+}
+.RadTabStripTop_DB .rtsLevel1 .rtsUL {padding:0px;}
+
+
+.RadTabStrip_DB .rtsLink:hover {
+	color: #000000;
+}
+
+
+.RadTabStrip_DB .rtsLevel1 .rtsLink {
+	color: #ffffff;
+	background-color: #336699;
+	
+	border-radius:7px 7px 0  0;
+	-moz-border-radius:5px; 
+    -webkit-border-radius: 5px;
+}
+
+.RadTabStrip_DB .rtsLevel1 .rtsLI {
+	margin-left:1px;
+}
+.RadTabStrip_DB .rtsLevel1 .rtsLink:hover {
+	border-color: #ffffff;
+	margin-top : 0px;
+		
+}
+.RadTabStrip_DB .rtsSelected {
+	color: #000000;
+	background-color: #e5e5e5;
+}
+
+.RadTabStrip_DB .rtsSelected:hover {}
+
+
+.RadTabStrip_DB .rtsLevel1 .rtsSelected {
+	border-color: #ffffff;
+	border-radius: 7px 7px 0  0;
+	-moz-border-radius:5px; 
+    -webkit-border-radius: 5px;
+	color: #FFFFFF;/*767676;*/
+	background-color: #489fe7;/*ffffff;*/
+}
+.RadTabStrip_DB .rtsLevel1 .rtsSelected:hover {
+	color: #000000;
+}
+
+
+
+
+/** Rotator Skin DB Start */
+
+.RadRotator_DB .rrButton 
+{
+    background-image: url('/images/carousel-arrows.png') !important;
+    background-repeat: no-repeat;
+    height:50px;
+    width:20px;
+}
+.RadRotator_DB .rrButton.rrButtonLeft 
+{
+  background-position:0 -52px;
+  left:-20px;
+  margin-top:-10px;
+  top:49%;
+  
+}
+
+.RadRotator_DB .rrButton.rrButtonLeft:hover  
+{
+    background-position:-23px -52px;
+
+}
+.RadRotator_DB .rrButton.rrButtonRight 
+{
+  background-position:0 0px;
+  margin-top:-10px;
+  right:-22px;
+  top:49%;    
+}
+
+.RadRotator_DB .rrButton.rrButtonRight:hover 
+{
+      background-position:-23px 0px;
+}
+
+
+/** Rotator Skin DB End */
+ 
+ .tooltip 
+{
+    display:none;
+    width: 450px;
+    height:auto;
+    margin-top:16px;
+}
+
+.tooltipinner 
+{
+	
+    background: url("/images/rectangle0.png");
+    color:white;
+    padding:10px;
+    border-radius:5px;
+    -moz-box-shadow: 0 0 5px #888;
+    -webkit-box-shadow: 0 0 5px#888;
+    box-shadow: 0 0 5px #888;
+	margin:auto;
+}
+
+ .upper0{
+ 
+ margin-left:35px;
+ margin-bottom:-7px;
+ }
+ 
+ .RadWindow
+{
+    z-index: 9015 !important;
+}
+
+.Rotator .ProviderLink a:link
+{
+color:#666666;
+font-weight:bold;
+}
+.Rotator .ServiceLink a:link
+{
+    color:#006C9E;
+    font-size:0.9em;
+}
+.tooltip2 {
+			color: #006C9E; outline: none;
+			cursor: pointer; text-decoration: none;
+			position: relative;
+		}
+		.tooltip2 span {
+			margin-left: -999em;
+			position: absolute;
+		}
+		.tooltip2:hover span {
+			border-radius: 5px 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; 
+			box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1); -webkit-box-shadow: 5px 5px rgba(0, 0, 0, 0.1); -moz-box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+			font-family: Calibri, Tahoma, Geneva, sans-serif;
+			font-weight:normal;
+			position: absolute; left: -2em; top: 2em; z-index: 99;
+			margin-left: auto; width: 250px;
+		}
+	
+		.tooltip2:hover em {
+			font-family: Candara, Tahoma, Geneva, sans-serif; font-size: 1.2em; font-weight: bold;
+			display: block; padding: 0.2em 0 0.6em 0;
+		}
+.custom2 { padding: 0.5em 0.8em 0.8em 2em; }
+		* html a:hover { background: transparent; }		
+		
+		.info2 { background: #f8fbfe; border: 1px solid #2BB0D7;text-align:left;	}
+		
+.tooltip3 {
+			color: #006C9E; outline: none;
+			cursor: pointer; text-decoration: none;
+			position: relative;
+		}
+		.tooltip3 span {
+			margin-left: -999em;
+			position: absolute;
+		}
+		.tooltip3:hover span {
+			border-radius: 5px 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; 
+			box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1); -webkit-box-shadow: 5px 5px rgba(0, 0, 0, 0.1); -moz-box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+			font-family: Calibri, Tahoma, Geneva, sans-serif;
+			font-weight:normal;
+			position: absolute; right: -23em; margin-top: -13px; z-index: 99;
+			margin-left: auto; width: 200px;
+		}
+	
+		.tooltip3:hover em {
+			font-family: Candara, Tahoma, Geneva, sans-serif; font-size: 1.2em; font-weight: bold;
+			display: block; padding: 0.2em 0 0.6em 0;
+		}
+
+.WantedTreeItem
+{
+    clear:both;
+    white-space:normal;
+    width:400px;
+}
+
+.ProviderPhotoWarning
+{
+    color:Red;
+    padding-left:18px;
+    padding-bottom:2px;
+}
+
+ .inputSpecial
+	
+	{  font-family: "Trebuchet MS",sans-serif,Arial,Tahoma !important;
+    font-size:15px !important;
+    padding-left:1px !important;
+	    
+	    
+	    }
+
+
+.aspTextBox
+{ 
+    font-family: "Trebuchet MS",sans-serif,Arial,Tahoma !important;
+    font-size:15px !important;
+    padding-left:1px !important;
+    
+}
+.comboBox
+{ 
+    font-family: "Trebuchet MS",sans-serif,Arial,Tahoma !important;
+    font-size:15px !important;
+    padding-left:1px !important;
+    
+}
+.TextAreaDragHorizontal
+{
+    
+    font-family: "Trebuchet MS",sans-serif,Arial,Tahoma !important;
+    font-size:15px !important;
+    padding-left:1px !important;
+    }
+
